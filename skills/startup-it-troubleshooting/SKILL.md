@@ -285,7 +285,7 @@ gh api orgs/your-company/invitations -f email="newhire@company.com" -f role="dir
 gh api orgs/your-company/teams/engineering/memberships/newhire-username -f role="member" -X PUT
 
 # 5. VPN / Tailscale
-tailscale up --authkey tskey-auth-abc123
+tailscale up --authkey "$TAILSCALE_AUTH_KEY"
 ```
 
 ### First-Day Setup Script (macOS)
@@ -412,4 +412,3 @@ gam user compromised@company.com show forwarding     # check attacker persistenc
 
 - Infrastructure commands can disrupt services: confirm target host/scope and have backups/snapshots before mutating state.
 - Docs-only import: upstream scripts and templates not bundled.
-

@@ -13,7 +13,7 @@ brew install --cask tailscale
 # Authenticate and connect
 open /Applications/Tailscale.app
 # Or via CLI:
-tailscale up --authkey tskey-auth-your-key-here
+tailscale up --authkey "$TAILSCALE_AUTH_KEY"
 
 # Verify Tailscale IP
 tailscale ip -4
@@ -218,4 +218,3 @@ chmod +x /Users/openclaw/rotate-logs.sh
 - ollama-stack (`ollama-stack`) - Local model serving patterns
 - mac-mini-llm-lab (`mac-mini-llm-lab`) - Mac mini reliability and security baseline
 - startup-it-troubleshooting (`startup-it-troubleshooting`) - Small-team operational triage
-
