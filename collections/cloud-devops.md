@@ -1,0 +1,355 @@
+# Cloud, DevOps & Reliability
+
+Cloud platforms, infrastructure, CI/CD, deployment, observability, operations, and reliability.
+
+Skills: **349**
+
+- [`aegisops-ai`](../skills/aegisops-ai/) — Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance.
+- [`agent-evals`](../skills/agent-evals/) — Build automated evaluation suites for AI agents using golden datasets, rubrics, and regression gates. Use when shipping agent features, validating prompt changes, or gating deployments on quality.
+- [`agent-observability`](../skills/agent-observability/) — Instrument AI agents with tracing, token metrics, latency, and cost visibility. Use for reliability and debugging.
+- [`ai-inference-service-mesh`](../skills/ai-inference-service-mesh/) — Use service mesh patterns for AI inference traffic management, mTLS, canary releases, policy enforcement, and cross-cluster resilience.
+- [`ai-pipeline-orchestration`](../skills/ai-pipeline-orchestration/) — Orchestrate AI/ML pipelines for data ingestion, model training, batch inference, and RAG indexing using Prefect, Airflow, or Dagster.
+- [`ai-sre-incident-response`](../skills/ai-sre-incident-response/) — Build AI-focused SRE incident response practices for LLM outages, degraded quality, runaway cost events, and safety regressions.
+- [`alerting-oncall`](../skills/alerting-oncall/) — Set up alerting rules, configure on-call rotations, and manage incident response workflows.
+- [`amazon-alexa`](../skills/amazon-alexa/) — Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home).
+- [`anti-sleep`](../skills/anti-sleep/) — Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.
+- [`antigravity-maintainer-batch-release`](../skills/antigravity-maintainer-batch-release/) — Run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks.
+- [`appium-skill`](../skills/appium-skill/) — Generates production-grade Appium mobile automation scripts for Android and iOS in Java, Python, or JavaScript. Supports real device and emulator testing locally and on TestMu AI cloud with 100+ real devices.
+- [`apple-container`](../skills/apple-container/) — Build, run, and manage OCI/Linux containers as lightweight per-container VMs on Apple-silicon macOS using Apple's open-source container CLI, no Docker daemon required.
+- [`application-performance-performance-optimization`](../skills/application-performance-performance-optimization/) — Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack.
+- [`argocd-gitops`](../skills/argocd-gitops/) — Implement GitOps with ArgoCD for declarative Kubernetes deployments.
+- [`arm-templates`](../skills/arm-templates/) — Deploy Azure resources with ARM templates and Bicep. Create modular deployments and manage dependencies. Use when deploying Azure-native IaC.
+- [`automated-triage`](../skills/automated-triage/) — Triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.
+- [`aws-agentic-ai`](../skills/aws-agentic-ai/) — AWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale. Use when working with any AgentCore service including Gateway, Runtime, Memory, Identity, Code Interpreter, Browser, Observability, Agent Registry, or Evaluations.
+- [`aws-cdk-development`](../skills/aws-cdk-development/) — AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python.
+- [`aws-cost-cleanup`](../skills/aws-cost-cleanup/) — Automated cleanup of unused AWS resources to reduce costs
+- [`aws-cost-operations`](../skills/aws-cost-operations/) — AWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture.
+- [`aws-cost-optimization`](../skills/aws-cost-optimization/) — Reduce AWS spend with rightsizing, autoscaling, commitment planning, and storage lifecycle policies. Use when running FinOps reviews, lowering cloud bills, or improving cost-per-request metrics.
+- [`aws-cost-optimizer`](../skills/aws-cost-optimizer/) — Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer
+- [`aws-ec2`](../skills/aws-ec2/) — Manage EC2 instances, AMIs, and auto-scaling groups. Configure security groups, key pairs, and instance types. Use when deploying compute resources on AWS.
+- [`aws-ecs-fargate`](../skills/aws-ecs-fargate/) — Deploy containers on ECS and Fargate. Configure task definitions, services, and load balancing. Use when running containerized workloads on AWS.
+- [`aws-iam`](../skills/aws-iam/) — Manage IAM users, roles, and policies. Implement least-privilege access and security best practices. Use when configuring AWS identity and access management.
+- [`aws-lambda`](../skills/aws-lambda/) — Build and deploy serverless functions on AWS Lambda. Configure triggers, manage permissions, and optimize performance. Use when implementing serverless applications.
+- [`aws-mcp-setup`](../skills/aws-mcp-setup/) — Configure AWS MCP servers for documentation search and API access. Use when setting up AWS MCP, configuring AWS documentation tools, troubleshooting MCP connectivity, or when user mentions aws-mcp, awsdocs, uvx setup, or MCP server configuration.
+- [`aws-penetration-testing`](../skills/aws-penetration-testing/) — Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations.
+- [`aws-rds`](../skills/aws-rds/) — Provision and manage RDS databases. Configure backups, replication, and security. Use when deploying managed relational databases on AWS.
+- [`aws-s3`](../skills/aws-s3/) — Configure S3 buckets, policies, and lifecycle rules. Implement versioning, replication, and security. Use when managing object storage on AWS.
+- [`aws-serverless`](../skills/aws-serverless/) — Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.
+- [`aws-serverless-eda`](../skills/aws-serverless-eda/) — AWS serverless and event-driven architecture expert based on Well-Architected Framework. Use when building serverless APIs, Lambda functions, REST APIs, microservices, or async workflows.
+- [`aws-skills`](../skills/aws-skills/) — AWS development with infrastructure automation and cloud architecture patterns
+- [`aws-sst-development`](../skills/aws-sst-development/) — SST v4 (Ion) expert for managing AWS resources as code with the Pulumi-backed framework.
+- [`aws-vpc`](../skills/aws-vpc/) — Design and implement VPCs and networking. Configure subnets, route tables, and security groups. Use when setting up AWS network infrastructure.
+- [`azd-deployment`](../skills/azd-deployment/) — Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.
+- [`azure-ai-agents-persistent-dotnet`](../skills/azure-ai-agents-persistent-dotnet/) — Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
+- [`azure-ai-agents-persistent-java`](../skills/azure-ai-agents-persistent-java/) — Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
+- [`azure-ai-anomalydetector-java`](../skills/azure-ai-anomalydetector-java/) — Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring.
+- [`azure-ai-contentsafety-java`](../skills/azure-ai-contentsafety-java/) — Build content moderation applications using the Azure AI Content Safety SDK for Java.
+- [`azure-ai-contentsafety-py`](../skills/azure-ai-contentsafety-py/) — Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
+- [`azure-ai-contentsafety-ts`](../skills/azure-ai-contentsafety-ts/) — Analyze text and images for harmful content with customizable blocklists.
+- [`azure-ai-contentunderstanding-py`](../skills/azure-ai-contentunderstanding-py/) — Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.
+- [`azure-ai-document-intelligence-dotnet`](../skills/azure-ai-document-intelligence-dotnet/) — Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.
+- [`azure-ai-document-intelligence-ts`](../skills/azure-ai-document-intelligence-ts/) — Extract text, tables, and structured data from documents using prebuilt and custom models.
+- [`azure-ai-formrecognizer-java`](../skills/azure-ai-formrecognizer-java/) — Build document analysis applications using the Azure AI Document Intelligence SDK for Java.
+- [`azure-ai-language-conversations-py`](../skills/azure-ai-language-conversations-py/) — Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.
+- [`azure-ai-ml-py`](../skills/azure-ai-ml-py/) — Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
+- [`azure-ai-openai-dotnet`](../skills/azure-ai-openai-dotnet/) — Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.
+- [`azure-ai-projects-dotnet`](../skills/azure-ai-projects-dotnet/) — Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.
+- [`azure-ai-projects-java`](../skills/azure-ai-projects-java/) — Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.
+- [`azure-ai-projects-py`](../skills/azure-ai-projects-py/) — Build AI applications on Microsoft Foundry using the azure-ai-projects SDK.
+- [`azure-ai-projects-ts`](../skills/azure-ai-projects-ts/) — High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.
+- [`azure-ai-textanalytics-py`](../skills/azure-ai-textanalytics-py/) — Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.
+- [`azure-ai-transcription-py`](../skills/azure-ai-transcription-py/) — Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.
+- [`azure-ai-translation-document-py`](../skills/azure-ai-translation-document-py/) — Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.
+- [`azure-ai-translation-text-py`](../skills/azure-ai-translation-text-py/) — Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
+- [`azure-ai-translation-ts`](../skills/azure-ai-translation-ts/) — Text and document translation with REST-style clients.
+- [`azure-ai-vision-imageanalysis-java`](../skills/azure-ai-vision-imageanalysis-java/) — Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
+- [`azure-ai-vision-imageanalysis-py`](../skills/azure-ai-vision-imageanalysis-py/) — Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
+- [`azure-ai-voicelive-dotnet`](../skills/azure-ai-voicelive-dotnet/) — Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication.
+- [`azure-ai-voicelive-java`](../skills/azure-ai-voicelive-java/) — Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.
+- [`azure-ai-voicelive-py`](../skills/azure-ai-voicelive-py/) — Build real-time voice AI applications with bidirectional WebSocket communication.
+- [`azure-ai-voicelive-ts`](../skills/azure-ai-voicelive-ts/) — Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication.
+- [`azure-aks`](../skills/azure-aks/) — Deploy and manage Azure Kubernetes Service clusters. Configure node pools, networking, and integrations. Use when running Kubernetes workloads on Azure.
+- [`azure-appconfiguration-java`](../skills/azure-appconfiguration-java/) — Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.
+- [`azure-appconfiguration-py`](../skills/azure-appconfiguration-py/) — Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
+- [`azure-appconfiguration-ts`](../skills/azure-appconfiguration-ts/) — Centralized configuration management with feature flags and dynamic refresh.
+- [`azure-communication-callautomation-java`](../skills/azure-communication-callautomation-java/) — Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.
+- [`azure-communication-callingserver-java`](../skills/azure-communication-callingserver-java/) — ⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only.
+- [`azure-communication-chat-java`](../skills/azure-communication-chat-java/) — Build real-time chat applications with thread management, messaging, participants, and read receipts.
+- [`azure-communication-common-java`](../skills/azure-communication-common-java/) — Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
+- [`azure-communication-sms-java`](../skills/azure-communication-sms-java/) — Send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.
+- [`azure-compute-batch-java`](../skills/azure-compute-batch-java/) — Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
+- [`azure-containerregistry-py`](../skills/azure-containerregistry-py/) — Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.
+- [`azure-cosmos-db-py`](../skills/azure-cosmos-db-py/) — Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
+- [`azure-cosmos-java`](../skills/azure-cosmos-java/) — Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
+- [`azure-cosmos-py`](../skills/azure-cosmos-py/) — Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
+- [`azure-cosmos-rust`](../skills/azure-cosmos-rust/) — Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
+- [`azure-cosmos-ts`](../skills/azure-cosmos-ts/) — Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management.
+- [`azure-data-tables-java`](../skills/azure-data-tables-java/) — Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.
+- [`azure-data-tables-py`](../skills/azure-data-tables-py/) — Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
+- [`azure-devops`](../skills/azure-devops/) — Set up Azure Pipelines for CI/CD, configure build and release pipelines, manage Azure DevOps projects, and integrate with Azure services.
+- [`azure-eventgrid-dotnet`](../skills/azure-eventgrid-dotnet/) — Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.
+- [`azure-eventgrid-java`](../skills/azure-eventgrid-java/) — Build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events.
+- [`azure-eventgrid-py`](../skills/azure-eventgrid-py/) — Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
+- [`azure-eventhub-dotnet`](../skills/azure-eventhub-dotnet/) — Azure Event Hubs SDK for .NET.
+- [`azure-eventhub-java`](../skills/azure-eventhub-java/) — Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures.
+- [`azure-eventhub-py`](../skills/azure-eventhub-py/) — Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.
+- [`azure-eventhub-rust`](../skills/azure-eventhub-rust/) — Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.
+- [`azure-eventhub-ts`](../skills/azure-eventhub-ts/) — High-throughput event streaming and real-time data ingestion.
+- [`azure-functions`](../skills/azure-functions/) — Expert patterns for Azure Functions development including isolated worker model, Durable Functions orchestration, cold start optimization, and production patterns. Covers .NET, Python, and Node.js programming models.
+- [`azure-functions-devsec`](../skills/azure-functions-devsec/) — Build serverless applications on Azure Functions. Configure triggers, bindings, and deployment. Use when implementing serverless workloads on Azure.
+- [`azure-identity-dotnet`](../skills/azure-identity-dotnet/) — Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.
+- [`azure-identity-java`](../skills/azure-identity-java/) — Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).
+- [`azure-identity-py`](../skills/azure-identity-py/) — Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.
+- [`azure-identity-rust`](../skills/azure-identity-rust/) — Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
+- [`azure-identity-ts`](../skills/azure-identity-ts/) — Authenticate to Azure services with various credential types.
+- [`azure-keyvault-certificates-rust`](../skills/azure-keyvault-certificates-rust/) — Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.
+- [`azure-keyvault-keys-rust`](../skills/azure-keyvault-keys-rust/) — Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
+- [`azure-keyvault-keys-ts`](../skills/azure-keyvault-keys-ts/) — Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
+- [`azure-keyvault-py`](../skills/azure-keyvault-py/) — Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.
+- [`azure-keyvault-secrets-rust`](../skills/azure-keyvault-secrets-rust/) — Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust".
+- [`azure-keyvault-secrets-ts`](../skills/azure-keyvault-secrets-ts/) — Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.
+- [`azure-maps-search-dotnet`](../skills/azure-maps-search-dotnet/) — Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.
+- [`azure-messaging-webpubsub-java`](../skills/azure-messaging-webpubsub-java/) — Build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
+- [`azure-messaging-webpubsubservice-py`](../skills/azure-messaging-webpubsubservice-py/) — Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
+- [`azure-mgmt-apicenter-dotnet`](../skills/azure-mgmt-apicenter-dotnet/) — Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.
+- [`azure-mgmt-apicenter-py`](../skills/azure-mgmt-apicenter-py/) — Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
+- [`azure-mgmt-apimanagement-dotnet`](../skills/azure-mgmt-apimanagement-dotnet/) — Azure Resource Manager SDK for API Management in .NET.
+- [`azure-mgmt-apimanagement-py`](../skills/azure-mgmt-apimanagement-py/) — Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.
+- [`azure-mgmt-applicationinsights-dotnet`](../skills/azure-mgmt-applicationinsights-dotnet/) — Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.
+- [`azure-mgmt-arizeaiobservabilityeval-dotnet`](../skills/azure-mgmt-arizeaiobservabilityeval-dotnet/) — Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).
+- [`azure-mgmt-botservice-dotnet`](../skills/azure-mgmt-botservice-dotnet/) — Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.
+- [`azure-mgmt-botservice-py`](../skills/azure-mgmt-botservice-py/) — Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.
+- [`azure-mgmt-fabric-dotnet`](../skills/azure-mgmt-fabric-dotnet/) — Azure Resource Manager SDK for Fabric in .NET.
+- [`azure-mgmt-fabric-py`](../skills/azure-mgmt-fabric-py/) — Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.
+- [`azure-mgmt-mongodbatlas-dotnet`](../skills/azure-mgmt-mongodbatlas-dotnet/) — Manage MongoDB Atlas Organizations as Azure ARM resources with unified billing through Azure Marketplace.
+- [`azure-mgmt-weightsandbiases-dotnet`](../skills/azure-mgmt-weightsandbiases-dotnet/) — Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.
+- [`azure-microsoft-playwright-testing-ts`](../skills/azure-microsoft-playwright-testing-ts/) — Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.
+- [`azure-monitor-ingestion-java`](../skills/azure-monitor-ingestion-java/) — Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
+- [`azure-monitor-ingestion-py`](../skills/azure-monitor-ingestion-py/) — Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
+- [`azure-monitor-opentelemetry-exporter-java`](../skills/azure-monitor-opentelemetry-exporter-java/) — Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
+- [`azure-monitor-opentelemetry-exporter-py`](../skills/azure-monitor-opentelemetry-exporter-py/) — Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.
+- [`azure-monitor-opentelemetry-py`](../skills/azure-monitor-opentelemetry-py/) — Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.
+- [`azure-monitor-opentelemetry-ts`](../skills/azure-monitor-opentelemetry-ts/) — Auto-instrument Node.js applications with distributed tracing, metrics, and logs.
+- [`azure-monitor-query-java`](../skills/azure-monitor-query-java/) — Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.
+- [`azure-monitor-query-py`](../skills/azure-monitor-query-py/) — Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.
+- [`azure-networking`](../skills/azure-networking/) — Configure Azure VNets, NSGs, and Azure Firewall. Implement hub-spoke topology and private endpoints. Use when designing Azure network infrastructure.
+- [`azure-postgres-ts`](../skills/azure-postgres-ts/) — Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
+- [`azure-resource-manager-cosmosdb-dotnet`](../skills/azure-resource-manager-cosmosdb-dotnet/) — Azure Resource Manager SDK for Cosmos DB in .NET.
+- [`azure-resource-manager-durabletask-dotnet`](../skills/azure-resource-manager-durabletask-dotnet/) — Azure Resource Manager SDK for Durable Task Scheduler in .NET.
+- [`azure-resource-manager-mysql-dotnet`](../skills/azure-resource-manager-mysql-dotnet/) — Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.
+- [`azure-resource-manager-playwright-dotnet`](../skills/azure-resource-manager-playwright-dotnet/) — Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.
+- [`azure-resource-manager-postgresql-dotnet`](../skills/azure-resource-manager-postgresql-dotnet/) — Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.
+- [`azure-resource-manager-redis-dotnet`](../skills/azure-resource-manager-redis-dotnet/) — Azure Resource Manager SDK for Redis in .NET.
+- [`azure-resource-manager-sql-dotnet`](../skills/azure-resource-manager-sql-dotnet/) — Azure Resource Manager SDK for Azure SQL in .NET.
+- [`azure-search-documents-dotnet`](../skills/azure-search-documents-dotnet/) — Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.
+- [`azure-search-documents-py`](../skills/azure-search-documents-py/) — Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.
+- [`azure-search-documents-ts`](../skills/azure-search-documents-ts/) — Build search applications with vector, hybrid, and semantic search capabilities.
+- [`azure-security-keyvault-keys-dotnet`](../skills/azure-security-keyvault-keys-dotnet/) — Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.
+- [`azure-security-keyvault-keys-java`](../skills/azure-security-keyvault-keys-java/) — Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
+- [`azure-security-keyvault-secrets-java`](../skills/azure-security-keyvault-secrets-java/) — Azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.
+- [`azure-servicebus-dotnet`](../skills/azure-servicebus-dotnet/) — Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.
+- [`azure-servicebus-py`](../skills/azure-servicebus-py/) — Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.
+- [`azure-servicebus-rust`](../skills/azure-servicebus-rust/) — Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust".
+- [`azure-servicebus-ts`](../skills/azure-servicebus-ts/) — Enterprise messaging with queues, topics, and subscriptions.
+- [`azure-speech-to-text-rest-py`](../skills/azure-speech-to-text-rest-py/) — Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
+- [`azure-sql`](../skills/azure-sql/) — Provision Azure SQL Database and Cosmos DB. Configure security, backups, and replication. Use when deploying managed databases on Azure.
+- [`azure-storage-blob-java`](../skills/azure-storage-blob-java/) — Build blob storage applications using the Azure Storage Blob SDK for Java.
+- [`azure-storage-blob-py`](../skills/azure-storage-blob-py/) — Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.
+- [`azure-storage-blob-rust`](../skills/azure-storage-blob-rust/) — Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
+- [`azure-storage-blob-ts`](../skills/azure-storage-blob-ts/) — Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.
+- [`azure-storage-file-datalake-py`](../skills/azure-storage-file-datalake-py/) — Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.
+- [`azure-storage-file-share-py`](../skills/azure-storage-file-share-py/) — Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.
+- [`azure-storage-file-share-ts`](../skills/azure-storage-file-share-ts/) — Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.
+- [`azure-storage-queue-py`](../skills/azure-storage-queue-py/) — Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.
+- [`azure-storage-queue-rust`](../skills/azure-storage-queue-rust/) — Azure Queue Storage library for Rust. Send, receive, and manage queue messages. Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust".
+- [`azure-storage-queue-ts`](../skills/azure-storage-queue-ts/) — Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
+- [`azure-vms`](../skills/azure-vms/) — Manage Azure Virtual Machines and scale sets. Configure availability sets and managed disks. Use when deploying compute resources on Azure.
+- [`azure-web-pubsub-ts`](../skills/azure-web-pubsub-ts/) — Real-time messaging with WebSocket connections and pub/sub patterns.
+- [`backup-recovery`](../skills/backup-recovery/) — Implement backup and recovery strategies. Configure rsync, Restic, and cloud backups. Use when designing data protection solutions.
+- [`block-storage`](../skills/block-storage/) — Manage block storage volumes and LVM. Configure cloud block storage and local disks. Use when managing disk storage.
+- [`blue-green-deploy`](../skills/blue-green-deploy/) — Configure zero-downtime deployment strategies including blue-green, canary, and rolling deployments.
+- [`brendangregg-use-tsa`](../skills/brendangregg-use-tsa/) — Methodical performance troubleshooting and root-cause analysis with Brendan Gregg's USE and TSA methods, plus evidence-backed RCA and postmortem reports.
+- [`cdk-patterns`](../skills/cdk-patterns/) — Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.
+- [`cdn-setup`](../skills/cdn-setup/) — Configure CDNs for content delivery. Set up CloudFront, Cloudflare, and Fastly. Use when optimizing global content delivery.
+- [`ci-cd-and-automation`](../skills/ci-cd-and-automation/) — Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
+- [`circleci`](../skills/circleci/) — Configure CircleCI workflows and orbs for continuous integration and deployment.
+- [`cloud-architect`](../skills/cloud-architect/) — Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
+- [`cloud-penetration-testing`](../skills/cloud-penetration-testing/) — Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
+- [`cloudflare-deploy`](../skills/cloudflare-deploy/) — Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.
+- [`cloudflare-pages`](../skills/cloudflare-pages/) — Deploy static sites and full-stack apps on Cloudflare Pages with previews, functions, and custom domains.
+- [`cloudflare-r2`](../skills/cloudflare-r2/) — Manage Cloudflare R2 buckets, lifecycle, and signed URLs. Use for low-egress object storage and media delivery.
+- [`cloudflare-workers`](../skills/cloudflare-workers/) — Build and deploy edge functions with Cloudflare Workers and Wrangler. Use for APIs, cron jobs, and edge middleware.
+- [`cloudflare-zero-trust`](../skills/cloudflare-zero-trust/) — Protect internal apps with Cloudflare Access, device posture, and Zero Trust policies.
+- [`cloudformation`](../skills/cloudformation/) — Deploy AWS resources with CloudFormation templates. Create stacks, use nested stacks, and implement drift detection. Use when deploying AWS-native IaC.
+- [`cloudformation-best-practices`](../skills/cloudformation-best-practices/) — CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.
+- [`cloudish`](../skills/cloudish/) — Deploy a Dockerfile, source folder, or existing image to Cloudish as a running container at a live URL, built server-side with no local Docker, with confirmation before spending credits.
+- [`container-registries`](../skills/container-registries/) — Manage container registries including ECR, ACR, GCR, and Docker Hub.
+- [`convex-backend`](../skills/convex-backend/) — Build reactive backends with Convex functions, schema validation, auth integration, and deployment workflows. Use when building real-time apps with type-safe server functions and automatic caching.
+- [`cost-optimization`](../skills/cost-optimization/) — Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
+- [`cron-doctor`](../skills/cron-doctor/) — Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.
+- [`database-backups`](../skills/database-backups/) — Implement database backup strategies. Configure automated backups, retention, and recovery testing. Use when designing backup and recovery procedures.
+- [`datadog`](../skills/datadog/) — Implement Datadog monitoring and APM for infrastructure and applications.
+- [`datadog-automation`](../skills/datadog-automation/) — Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas.
+- [`debug-buttercup`](../skills/debug-buttercup/) — All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.
+- [`deploy-to-vercel`](../skills/deploy-to-vercel/) — Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
+- [`deployment-engineer`](../skills/deployment-engineer/) — Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
+- [`deployment-pipeline-design`](../skills/deployment-pipeline-design/) — Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.
+- [`deployment-procedures`](../skills/deployment-procedures/) — Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.
+- [`deployment-validation-config-validate`](../skills/deployment-validation-config-validate/) — You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat
+- [`devcontainers-nix`](../skills/devcontainers-nix/) — Create reproducible development environments with Dev Containers, Nix flakes, and Devbox for consistent toolchains across teams.
+- [`devops-deploy`](../skills/devops-deploy/) — DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.
+- [`devops-pipeline-builder`](../skills/devops-pipeline-builder/) — Design and implement CI/CD pipelines, Docker configurations, deployment strategies, and infrastructure automation with production-ready patterns.
+- [`devops-troubleshooter`](../skills/devops-troubleshooter/) — Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+- [`distributed-debugging-debug-trace`](../skills/distributed-debugging-debug-trace/) — You are a debugging expert specializing in setting up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows, implement tracing solutions, and establish troubleshooting practices for development and production environments.
+- [`distributed-tracing`](../skills/distributed-tracing/) — Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.
+- [`dns-management`](../skills/dns-management/) — Configure DNS zones and records. Manage Route53, Cloud DNS, and self-hosted DNS. Use when setting up DNS infrastructure.
+- [`docker-compose`](../skills/docker-compose/) — Define and run multi-container Docker applications using Docker Compose.
+- [`docker-expert`](../skills/docker-expert/) — You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.
+- [`docker-management`](../skills/docker-management/) — Build, optimize, and troubleshoot Docker containers and images.
+- [`dropthehassle-publish`](../skills/dropthehassle-publish/) — Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.
+- [`eas-hosting`](../skills/eas-hosting/) — Curated upstream guidance for Eas Hosting; use when the workflow matches the user goal.
+- [`eas-observe`](../skills/eas-observe/) — Curated upstream guidance for Eas Observe; use when the workflow matches the user goal.
+- [`ebpf-observability`](../skills/ebpf-observability/) — Use eBPF for deep kernel-level observability — trace syscalls, network flows, and application behavior without code changes using Cilium, Tetragon, and bpftrace.
+- [`elk-stack`](../skills/elk-stack/) — Deploy and manage the ELK Stack (Elasticsearch, Logstash, Kibana) for log aggregation and analysis.
+- [`expo-cicd-workflows`](../skills/expo-cicd-workflows/) — Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
+- [`expo-deployment`](../skills/expo-deployment/) — Deploy Expo apps with EAS: build and submit iOS and Android releases, configure build and submit profiles, manage versions and store metadata, and deploy web bundles or API routes.
+- [`feature-flags`](../skills/feature-flags/) — Implement feature flags for progressive feature rollout using LaunchDarkly, Unleash, or custom solutions.
+- [`fedora-hyprland-installer`](../skills/fedora-hyprland-installer/) — Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
+- [`firebase`](../skills/firebase/) — Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they're often wrong.
+- [`firebase-app-platform`](../skills/firebase-app-platform/) — Build and operate apps on Firebase using Auth, Firestore, Cloud Functions, and Hosting. Use when building mobile/web backends with managed services, real-time data sync, or serverless APIs.
+- [`flutter-expert`](../skills/flutter-expert/) — Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
+- [`frontend-observability`](../skills/frontend-observability/) — A portable, framework-agnostic field-side observability system for any React or React Native app.
+- [`gcp-cloud-functions`](../skills/gcp-cloud-functions/) — Deploy serverless functions on Google Cloud Functions. Configure triggers and manage deployments. Use when implementing serverless workloads on GCP.
+- [`gcp-cloud-run`](../skills/gcp-cloud-run/) — Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.
+- [`gcp-cloud-sql`](../skills/gcp-cloud-sql/) — Provision Cloud SQL and Spanner databases. Configure high availability, backups, and security. Use when deploying managed databases on GCP.
+- [`gcp-compute`](../skills/gcp-compute/) — Manage Compute Engine instances and instance templates. Configure managed instance groups and preemptible VMs. Use when deploying compute resources on GCP.
+- [`gcp-gke`](../skills/gcp-gke/) — Deploy and manage Google Kubernetes Engine clusters. Configure node pools, networking, and workload identity. Use when running Kubernetes on GCP.
+- [`gcp-networking`](../skills/gcp-networking/) — Configure VPCs, firewall rules, and Cloud NAT. Implement shared VPC and private service connect. Use when designing GCP network infrastructure.
+- [`git-workflow`](../skills/git-workflow/) — Implement Git branching strategies, PR workflows, and release management patterns.
+- [`github-actions`](../skills/github-actions/) — Build, test, and deploy applications using GitHub Actions workflows.
+- [`github-actions-advanced`](../skills/github-actions-advanced/) — Design, debug, and harden GitHub Actions CI/CD workflows, including reusable workflows, matrix builds, self-hosted runners, OIDC authentication, caching, environments, secrets, and release automation.
+- [`github-actions-debugger`](../skills/github-actions-debugger/) — Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.
+- [`gitlab-ci`](../skills/gitlab-ci/) — Configure GitLab CI/CD pipelines and runners for automated building, testing, and deployment.
+- [`gitops-workflow`](../skills/gitops-workflow/) — Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
+- [`gpu-kubernetes-operations`](../skills/gpu-kubernetes-operations/) — Operate GPU-backed Kubernetes clusters for AI inference and training with scheduling, autoscaling, node health, MIG partitioning, and cost controls.
+- [`gpu-server-management`](../skills/gpu-server-management/) — Set up and manage NVIDIA GPU servers for AI workloads
+- [`grafana-dashboards`](../skills/grafana-dashboards/) — Create and manage production-ready Grafana dashboards for comprehensive system observability.
+- [`helm-chart-scaffolding`](../skills/helm-chart-scaffolding/) — Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.
+- [`helm-charts`](../skills/helm-charts/) — Create, manage, and deploy Helm charts for Kubernetes package management.
+- [`hf-cloud-aws-context-discovery`](../skills/hf-cloud-aws-context-discovery/) — Discover the effective local AWS profile, region, account, and caller identity before any AWS task without exposing credentials.
+- [`hybrid-cloud-architect`](../skills/hybrid-cloud-architect/) — Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
+- [`hybrid-cloud-networking`](../skills/hybrid-cloud-networking/) — Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.
+- [`identity-access-management`](../skills/identity-access-management/) — Set up and manage SSO, SCIM provisioning, and MFA for startup teams using Google Workspace, Okta, or Azure AD.
+- [`incident-responder`](../skills/incident-responder/) — Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
+- [`incident-response-incident-response`](../skills/incident-response-incident-response/) — Use when working with incident response incident response
+- [`incident-response-smart-fix`](../skills/incident-response-smart-fix/) — [Extended thinking: This workflow implements a sophisticated debugging and resolution pipeline that leverages AI-assisted debugging tools and observability platforms to systematically diagnose and res
+- [`incident-runbook-templates`](../skills/incident-runbook-templates/) — Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
+- [`istio-traffic-management`](../skills/istio-traffic-management/) — Comprehensive guide to Istio traffic management for production service mesh deployments.
+- [`it-manager-hospital`](../skills/it-manager-hospital/) — World-class Hospital IT Management Advisor specializing in clinical safety, digital maturity (HIMSS/ONA/JCI), and HIS/PEP ecosystems.
+- [`itil-expert`](../skills/itil-expert/) — Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.
+- [`jenkins`](../skills/jenkins/) — Create and manage Jenkins CI/CD pipelines, configure agents, manage plugins, and automate builds.
+- [`k8s-manifest-generator`](../skills/k8s-manifest-generator/) — Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims.
+- [`k8s-security-policies`](../skills/k8s-security-policies/) — Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
+- [`kubernetes-architect`](../skills/kubernetes-architect/) — Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
+- [`kubernetes-ops`](../skills/kubernetes-ops/) — Deploy, scale, and manage Kubernetes workloads.
+- [`kubestellar-console`](../skills/kubestellar-console/) — Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills
+- [`kustomize`](../skills/kustomize/) — Customize Kubernetes manifests without templating using Kustomize.
+- [`linkerd-patterns`](../skills/linkerd-patterns/) — Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
+- [`linux-administration`](../skills/linux-administration/) — System administration for Linux servers. Manage packages, services, and system configuration. Use when administering Linux systems.
+- [`llm-caching`](../skills/llm-caching/) — Implement multi-layer LLM caching with exact match, semantic similarity, and provider-side prompt caching.
+- [`llm-cost-optimization`](../skills/llm-cost-optimization/) — Reduce LLM API and infrastructure costs through model selection, prompt caching, batching, caching, quantization, and self-hosting strategies.
+- [`llm-fine-tuning`](../skills/llm-fine-tuning/) — Set up infrastructure for fine-tuning LLMs with QLoRA, LoRA, and full fine-tuning using Hugging Face TRL, Axolotl, and distributed training with DeepSpeed or FSDP.
+- [`llm-gateway`](../skills/llm-gateway/) — Deploy an API gateway for LLM traffic with load balancing, rate limiting, key management, semantic caching, fallback routing, and cost tracking.
+- [`llm-inference-scaling`](../skills/llm-inference-scaling/) — Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU metrics, and horizontal pod autoscaling.
+- [`llmops-platform-engineering`](../skills/llmops-platform-engineering/) — Build production LLMOps platforms with CI/CD, model promotion workflows, evaluation gates, rollback, and governance across cloud and self-hosted inference.
+- [`load-balancing`](../skills/load-balancing/) — Configure load balancers and traffic distribution. Implement health checks and SSL termination. Use when distributing traffic across servers.
+- [`loki-logging`](../skills/loki-logging/) — Configure Grafana Loki for log aggregation and analysis.
+- [`mac-mini-llm-lab`](../skills/mac-mini-llm-lab/) — Configure a Mac mini as a reliable local LLM server with remote access, observability, and power-safe operation. Use when building an always-on private AI inference server on Apple Silicon.
+- [`mailtrap-setting-up-sending-domain`](../skills/mailtrap-setting-up-sending-domain/) — Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance.
+- [`manifest`](../skills/manifest/) — Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin.
+- [`mdm-device-management`](../skills/mdm-device-management/) — Manage and secure company devices with MDM solutions
+- [`microsoft-azure-webjobs-extensions-authentication-events-dotnet`](../skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet/) — Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.
+- [`mirrord`](../skills/mirrord/) — Run a local process inside a live Kubernetes cluster's network, env and traffic with mirrord, so changes are tested against real services without deploying.
+- [`mise-configurator`](../skills/mise-configurator/) — Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.
+- [`model-registry-governance`](../skills/model-registry-governance/) — Establish model registry standards, governance controls, metadata schemas, approvals, and lifecycle policies for enterprise AI deployments.
+- [`model-serving-kubernetes`](../skills/model-serving-kubernetes/) — Deploy ML models on Kubernetes with KServe (formerly KFServing) and NVIDIA Triton Inference Server.
+- [`mongodb`](../skills/mongodb/) — Administer MongoDB databases. Configure replica sets, sharding, and backups. Use when managing MongoDB deployments.
+- [`monte-carlo-analyze-root-cause`](../skills/monte-carlo-analyze-root-cause/) — Curated upstream guidance for Monte Carlo Analyze Root Cause; use when the workflow matches the user goal.
+- [`multi-cloud-architecture`](../skills/multi-cloud-architecture/) — Decision framework and patterns for architecting applications across AWS, Azure, and GCP.
+- [`multi-tenant-llm-hosting`](../skills/multi-tenant-llm-hosting/) — Design secure, multi-tenant LLM hosting platforms with tenant isolation, quotas, billing attribution, noisy-neighbor protection, and per-tenant policy controls.
+- [`mysql`](../skills/mysql/) — Administer MySQL/MariaDB databases. Configure replication and optimize performance. Use when managing MySQL deployments.
+- [`neon-object-storage`](../skills/neon-object-storage/) — S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch.
+- [`netlify-deploy`](../skills/netlify-deploy/) — Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.
+- [`network-engineer`](../skills/network-engineer/) — Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
+- [`new-relic`](../skills/new-relic/) — Configure New Relic observability platform for infrastructure and application monitoring.
+- [`newman-cicd-integration`](../skills/newman-cicd-integration/) — Generate ready-to-use CI/CD pipeline configurations that install and run Newman for automated API testing.
+- [`nfs-storage`](../skills/nfs-storage/) — Configure NFS servers and clients. Implement network file sharing for Linux systems. Use when setting up shared storage.
+- [`object-storage`](../skills/object-storage/) — Configure object storage with S3, GCS, and MinIO. Implement lifecycle policies and access controls. Use when managing object storage.
+- [`observability-and-instrumentation`](../skills/observability-and-instrumentation/) — Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works.
+- [`observability-engineer`](../skills/observability-engineer/) — Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.
+- [`observability-monitoring-monitor-setup`](../skills/observability-monitoring-monitor-setup/) — You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da
+- [`observability-monitoring-slo-implement`](../skills/observability-monitoring-slo-implement/) — You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.
+- [`ollama-stack`](../skills/ollama-stack/) — Run local LLM workloads with Ollama, Open WebUI, and GPU-aware tuning for private development environments.
+- [`on-call-handoff-patterns`](../skills/on-call-handoff-patterns/) — Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
+- [`openclaw-local-mac-mini`](../skills/openclaw-local-mac-mini/) — Set up OpenClaw locally and run it reliably on a Mac mini for private, always-on local agent workflows.
+- [`openclaw-security-hardening`](../skills/openclaw-security-hardening/) — Harden OpenClaw self-hosted environments with baseline host controls, auth tightening, secret handling, network segmentation, and safe update/rollback workflows.
+- [`openshift`](../skills/openshift/) — Manage Red Hat OpenShift clusters and deployments.
+- [`opentelemetry`](../skills/opentelemetry/) — Instrument applications and infrastructure with OpenTelemetry for unified traces, metrics, and logs.
+- [`opentofu-migration`](../skills/opentofu-migration/) — Migrate from Terraform to OpenTofu with state compatibility, provider registry setup, and CI/CD pipeline updates. Use when adopting the open-source Terraform fork or evaluating license-free IaC.
+- [`pagerduty-automation`](../skills/pagerduty-automation/) — Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas.
+- [`performance-tuning`](../skills/performance-tuning/) — Optimize Linux system performance. Configure kernel parameters, analyze bottlenecks, and tune resources. Use when improving system performance.
+- [`pi-custom-model`](../skills/pi-custom-model/) — Register custom Pi Agent model slugs so saved OpenRouter variants resolve correctly.
+- [`planetscale`](../skills/planetscale/) — Operate MySQL-compatible databases on PlanetScale with branching workflows, safe migrations, and production rollouts.
+- [`platform-engineering`](../skills/platform-engineering/) — Build internal developer platforms (IDPs) with self-service infrastructure, golden paths, and developer portals using Backstage, Crossplane, and score.
+- [`podman`](../skills/podman/) — Manage containers using Podman, the daemonless container engine.
+- [`postgresql-devsec`](../skills/postgresql-devsec/) — Administer PostgreSQL databases. Configure replication, backups, and performance tuning. Use when managing PostgreSQL deployments.
+- [`postmortem-writing`](../skills/postmortem-writing/) — Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.
+- [`powershell-windows`](../skills/powershell-windows/) — PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
+- [`pre-release-review`](../skills/pre-release-review/) — Run a read-only pre-release review for deploy readiness, migrations, config, secrets, rollout order, rollback risk, and launch blockers.
+- [`production-runtime-certification`](../skills/production-runtime-certification/) — Certify a deployed service with fresh evidence across source, CI, migrations, runtime health, readiness, and critical routes; use before declaring a release production-ready.
+- [`prometheus-configuration`](../skills/prometheus-configuration/) — Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.
+- [`prometheus-grafana`](../skills/prometheus-grafana/) — Set up metrics collection and visualization with Prometheus and Grafana.
+- [`rag-infrastructure`](../skills/rag-infrastructure/) — Build and operate Retrieval-Augmented Generation (RAG) infrastructure with vector stores, embedding pipelines, and hybrid search.
+- [`rag-observability-evals`](../skills/rag-observability-evals/) — Monitor and evaluate RAG systems with retrieval quality metrics, groundedness checks, hallucination detection, and continuous regression testing.
+- [`rclone-cli`](../skills/rclone-cli/) — Rclone command-line cloud storage manager reference and usage guide. Use this skill whenever the user mentions rclone, or any task involving terminal-based cloud file operations such as upload, download, sync, copy, move, mount, or remote management.
+- [`redis`](../skills/redis/) — Configure Redis for caching and data storage. Set up clustering, persistence, and Sentinel. Use when implementing Redis caching or queues.
+- [`remote-gpu-trainer`](../skills/remote-gpu-trainer/) — Deploy, monitor, and debug long GPU jobs on RENTED/remote instances (AutoDL, RunPod, vast.ai, Lambda, Slurm, K8s): teardown/billing safety, spot resilience, resumable checkpointing, OOM/NaN triage.
+- [`render-deploy`](../skills/render-deploy/) — Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.
+- [`reverse-proxy`](../skills/reverse-proxy/) — Configure nginx and Traefik as reverse proxies. Implement SSL termination and routing. Use when setting up application gateways.
+- [`saas-security-posture`](../skills/saas-security-posture/) — Audit and harden your SaaS tool stack
+- [`semantic-versioning`](../skills/semantic-versioning/) — Automate versioning and changelog generation using semantic versioning principles.
+- [`sentry`](../skills/sentry/) — Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.
+- [`sentry-automation`](../skills/sentry-automation/) — Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.
+- [`server-management`](../skills/server-management/) — Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.
+- [`service-mesh`](../skills/service-mesh/) — Implement Istio and Linkerd service meshes. Configure mTLS, traffic management, and observability. Use when managing microservices communication.
+- [`service-mesh-expert`](../skills/service-mesh-expert/) — Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con
+- [`service-mesh-observability`](../skills/service-mesh-observability/) — Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments.
+- [`shipping-and-launch`](../skills/shipping-and-launch/) — Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.
+- [`slo-implementation`](../skills/slo-implementation/) — Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.
+- [`sre-dashboards`](../skills/sre-dashboards/) — Design and operationalize SRE dashboards that surface reliability, latency, error, saturation, and capacity signals across services.
+- [`ssh-configuration`](../skills/ssh-configuration/) — Configure SSH servers and clients securely. Manage keys, tunnels, and config files. Use when setting up secure remote access.
+- [`sshepherd`](../skills/sshepherd/) — Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent.
+- [`startup-it-troubleshooting`](../skills/startup-it-troubleshooting/) — Practical IT troubleshooting playbooks for small teams without dedicated IT staff.
+- [`systemd-services`](../skills/systemd-services/) — Create and manage systemd services and timers. Configure service dependencies and resource limits. Use when managing system services.
+- [`terraform-aws`](../skills/terraform-aws/) — Provision AWS infrastructure with Terraform. Create modules, manage state, and implement IaC best practices. Use when deploying AWS resources declaratively.
+- [`terraform-aws-modules`](../skills/terraform-aws-modules/) — Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure.
+- [`terraform-azure`](../skills/terraform-azure/) — Provision Azure infrastructure with Terraform. Configure providers, manage state, and deploy resources. Use when implementing IaC for Azure.
+- [`terraform-gcp`](../skills/terraform-gcp/) — Provision GCP infrastructure with Terraform. Configure providers and deploy Google Cloud resources. Use when implementing IaC for GCP.
+- [`terraform-module-library`](../skills/terraform-module-library/) — Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.
+- [`terraform-skill`](../skills/terraform-skill/) — Terraform infrastructure as code best practices
+- [`terraform-specialist`](../skills/terraform-specialist/) — Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns.
+- [`tool-use-guardian`](../skills/tool-use-guardian/) — FREE — Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures.
+- [`tune-monitor`](../skills/tune-monitor/) — Analyze a Monte Carlo monitor and recommend config changes to reduce alert noise. Supports metric, custom SQL, validation, and table monitors. Fetches the report, identifies patterns, and suggests tuning.
+- [`user-management`](../skills/user-management/) — Manage users, groups, and permissions on Linux systems. Configure sudo and access controls. Use when managing system access.
+- [`vector-database-ops`](../skills/vector-database-ops/) — Deploy, manage, and optimize vector databases for AI applications.
+- [`vercel-automation`](../skills/vercel-automation/) — Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.
+- [`vercel-cli-with-tokens`](../skills/vercel-cli-with-tokens/) — Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".
+- [`vercel-deploy`](../skills/vercel-deploy/) — Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
+- [`vercel-deployment`](../skills/vercel-deployment/) — Expert knowledge for deploying to Vercel with Next.js
+- [`vercel-deployments`](../skills/vercel-deployments/) — Deploy frontend and full-stack apps on Vercel with previews, edge functions, environment promotion, and production guardrails.
+- [`vercel-optimize`](../skills/vercel-optimize/) — Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations.
+- [`vibecode-production-qa-validator`](../skills/vibecode-production-qa-validator/) — 13-phase production QA for fullstack Next.js apps: build verification, SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load, vulnerability scan, UI/UX cards, error boundaries, database, secure rendering, and cleanup.
+- [`vllm-server`](../skills/vllm-server/) — Deploy and manage vLLM for high-throughput LLM inference. Configure continuous batching, tensor parallelism, quantization, and OpenAI-compatible API endpoints for production LLM serving.
+- [`vps-server-management`](../skills/vps-server-management/) — Manage authorized VPS hosts and server-side agents through cautious SSH and operations workflows.
+- [`windows-server`](../skills/windows-server/) — Administer Windows Server systems. Manage IIS, Active Directory, and PowerShell automation. Use when administering Windows infrastructure.
+- [`windows-shell-reliability`](../skills/windows-shell-reliability/) — Reliable command execution on Windows: paths, encoding, and common binary pitfalls.

@@ -1,0 +1,39 @@
+{
+  "generated_on": "2026-10-07",
+  "skill_count": 2706,
+  "domain_count": 18,
+  "risk_counts": {
+    "critical": 1303,
+    "none": 106,
+    "offensive": 143,
+    "safe": 1117,
+    "unknown": 37
+  },
+  "source_type_counts": {
+    "community": 1951,
+    "official": 235,
+    "personal": 35,
+    "self": 289,
+    "unspecified": 196
+  },
+  "domain_counts": {
+    "ai-agents": 233,
+    "software-development": 634,
+    "cloud-devops": 349,
+    "data-analytics": 96,
+    "security": 271,
+    "product-operations": 50,
+    "business-finance-legal": 212,
+    "marketing-sales": 148,
+    "content-media": 131,
+    "design-creative": 120,
+    "documents-office": 26,
+    "automation-integrations": 125,
+    "productivity-collaboration": 136,
+    "research-education": 64,
+    "games-interactive": 24,
+    "blockchain": 11,
+    "meta-personas": 62,
+    "other": 14
+  }
+}

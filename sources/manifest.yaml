@@ -1,0 +1,22 @@
+version: 1
+assembled_on: "2026-10-07"
+canonical_path: skills
+selection_policy:
+  - Keep one installable copy of each skill name under skills/.
+  - Prefer an official upstream for vendor-specific capabilities.
+  - Prefer Anthropic for Claude, creative, and rich document-processing skills.
+  - Prefer OpenAI for Codex, OpenAI product, plugin, and official integration skills.
+  - Preserve displaced variants locally under sources/replaced-canonical/.
+  - Preserve every license file shipped with an imported skill.
+sources:
+  - id: anthropic-skills
+    repository: https://github.com/anthropics/skills
+    local_snapshot: sources/anthropic-skills
+  - id: openai-skills
+    repository: https://github.com/openai/skills
+    local_snapshot: sources/openai-skills
+    note: The snapshot declares itself deprecated in favor of OpenAI Plugins.
+  - id: agentic-awesome-skills
+    repository: https://github.com/sickn33/agentic-awesome-skills
+    local_snapshot: sources/agentic-awesome-skills
+    note: Canonical skill files were promoted to skills/; mirrors stay in the snapshot.

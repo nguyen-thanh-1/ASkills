@@ -1,0 +1,144 @@
+# Productivity, Collaboration & Knowledge
+
+Personal productivity, collaboration, knowledge management, and reusable work routines.
+
+Skills: **136**
+
+- [`acceptance-orchestrator`](../skills/acceptance-orchestrator/) — Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.
+- [`address-github-comments`](../skills/address-github-comments/) — Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.
+- [`ai-loop`](../skills/ai-loop/) — Runs a bounded spec-build-review development loop with explicit scope, stop conditions, and human approval gates for risky or ambiguous work.
+- [`ai-ml`](../skills/ai-ml/) — AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.
+- [`airflow-dag-patterns`](../skills/airflow-dag-patterns/) — Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.
+- [`antigravity-workflows`](../skills/antigravity-workflows/) — Use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints.
+- [`anywrite`](../skills/anywrite/) — Compiled CLI covering all 52 endpoints of the Anytype local API — objects, properties, tags, search, chat, files — one binary, no MCP server needed.
+- [`apple-notes-search`](../skills/apple-notes-search/) — Semantic + keyword search and connection-discovery across the user's own Apple Notes via the apple-notes MCP server. Use when the user wants to find, recall, or synthesize something from their notes, or surface non-obvious bridges/related notes. macOS, on-device.
+- [`ask-matt`](../skills/ask-matt/) — Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
+- [`ask-questions-if-underspecified`](../skills/ask-questions-if-underspecified/) — Clarify requirements before implementing. Use when serious doubts arise.
+- [`atlas-ledger`](../skills/atlas-ledger/) — Companion to atlas-contract. Auto-invoked by its Final Audit on caught drift; also use after Post Reviews or user requests to record a mistake. Distills drift into WHEN/DON'T/INSTEAD clauses, writes to Atlas.md after confirmation.
+- [`bitbucket-automation`](../skills/bitbucket-automation/) — Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.
+- [`box-automation`](../skills/box-automation/) — Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.
+- [`brain-to-docs`](../skills/brain-to-docs/) — Interview the user to turn project vision and decisions into README and ADR documentation.
+- [`brainstorming`](../skills/brainstorming/) — Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration.
+- [`build`](../skills/build/) — build
+- [`busabase`](../skills/busabase/) — Use when managing Busabase workspace records, knowledge, apps, or skills through permission-aware ChangeRequests with auditable history.
+- [`byagent`](../skills/byagent/) — Publish agent-written Markdown or HTML as a shareable link with the byagent CLI, then read readers' line comments back, edit, republish to the same link and resolve them.
+- [`cal-com-automation`](../skills/cal-com-automation/) — Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.
+- [`calendly-automation`](../skills/calendly-automation/) — Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.
+- [`career-ops`](../skills/career-ops/) — Multi-CLI job-search command center: evaluate offers, scan portals, tailor CVs, track applications, prep interviews. Invoke per mode.
+- [`changelog-automation`](../skills/changelog-automation/) — Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.
+- [`closed-loop-delivery`](../skills/closed-loop-delivery/) — Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.
+- [`cloud-devops`](../skills/cloud-devops/) — Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.
+- [`codex-profiles`](../skills/codex-profiles/) — Use codex-profiles to run Codex CLI or Codex Desktop with isolated CODEX_HOME profiles for separate accounts, projects, and local state.
+- [`commit`](../skills/commit/) — ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.
+- [`compile-knowledge`](../skills/compile-knowledge/) — Compile durable, non-obvious findings into an interlinked markdown knowledge store — atomic files, [[wiki-links]], a maintained index — so an agent gets smarter across sessions instead of relearning the same facts.
+- [`conductor-implement`](../skills/conductor-implement/) — Execute tasks from a track's implementation plan following TDD workflow
+- [`conductor-manage`](../skills/conductor-manage/) — Manage track lifecycle: archive, restore, delete, rename, and cleanup
+- [`conductor-new-track`](../skills/conductor-new-track/) — Create a new track with specification and phased implementation plan
+- [`conductor-revert`](../skills/conductor-revert/) — Git-aware undo by logical work unit (track, phase, or task)
+- [`conductor-setup`](../skills/conductor-setup/) — Configure a Rails project to work with Conductor (parallel coding agents)
+- [`conductor-status`](../skills/conductor-status/) — Display project status, active tracks, and next actions
+- [`conductor-validator`](../skills/conductor-validator/) — Validates Conductor project artifacts for completeness,
+consistency, and correctness. Use after setup, when diagnosing issues, or
+before implementation to verify project context.
+- [`context-kit`](../skills/context-kit/) — Evaluate, adapt, and safely install Context Kit personal context artifacts for Claude Code or adjacent agent workflows.
+- [`court`](../skills/court/) — Put an idea on trial: a prosecutor and a defense Claude argue, 12 juror sub-agents vote independently, and a judge reads the verdict and the changes that would flip it.
+- [`create-branch`](../skills/create-branch/) — Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch.
+- [`create-issue-gate`](../skills/create-issue-gate/) — Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
+- [`create-pr`](../skills/create-pr/) — Alias for pr-writer. Use when users explicitly ask for "create-pr" or reference the legacy skill name. Redirects to the canonical PR writing workflow.
+- [`crossframe`](../skills/crossframe/) — Use when the user explicitly invokes CrossFrame or 跨尺度结构诊断 for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.
+- [`crossframe-public`](../skills/crossframe-public/) — Use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.
+- [`crossframe-review`](../skills/crossframe-review/) — Use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.
+- [`crossframe-suite`](../skills/crossframe-suite/) — Use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.
+- [`daily-gift`](../skills/daily-gift/) — Relationship-aware daily gift engine with five-stage creative pipeline — editorial judgment, synthesis, concept generation, visual strategy, and rendering in H5, image, or video
+- [`database`](../skills/database/) — Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
+- [`define-goal`](../skills/define-goal/) — Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.
+- [`deprecation-and-migration`](../skills/deprecation-and-migration/) — Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.
+- [`development`](../skills/development/) — Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery.
+- [`documentation`](../skills/documentation/) — Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing.
+- [`docusign-automation`](../skills/docusign-automation/) — Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.
+- [`dropbox-automation`](../skills/dropbox-automation/) — Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
+- [`executing-plans`](../skills/executing-plans/) — Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- [`faf-wizard`](../skills/faf-wizard/) — Done-for-you .faf generator. One-click AI context for any project - new, legacy, or famous. Auto-detects stack, scores readiness, works everywhere.
+- [`file-organizer`](../skills/file-organizer/) — 6. Reduces Clutter: Identifies old files you probably don't need anymore
+- [`finishing-a-development-branch`](../skills/finishing-a-development-branch/) — Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+- [`full-stack-orchestration-full-stack-feature`](../skills/full-stack-orchestration-full-stack-feature/) — Use when working with full stack orchestration full stack feature
+- [`gh-review-requests`](../skills/gh-review-requests/) — Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need to review", "show my review requests", "what needs my review", "fetch GitHub review requests", or "check team review queue".
+- [`git-advanced-workflows`](../skills/git-advanced-workflows/) — Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.
+- [`git-hooks-automation`](../skills/git-hooks-automation/) — Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI.
+- [`git-pr-review`](../skills/git-pr-review/) — Generate a concise and structured PR description from commit history with minimal token usage
+- [`git-pr-workflows-git-workflow`](../skills/git-pr-workflows-git-workflow/) — Orchestrate review, tests, commits, branch pushes, and pull-request creation with parallel agents. Use when completed changes must move through validation into a PR or guarded merge.
+- [`git-pr-workflows-onboard`](../skills/git-pr-workflows-onboard/) — You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. You
+- [`git-pr-workflows-pr-enhance`](../skills/git-pr-workflows-pr-enhance/) — You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu
+- [`git-pushing`](../skills/git-pushing/) — Safely stage, commit, and push intended git changes with conventional commit messages. Use for ordinary non-release pushes when explicitly asked to push, save work remotely, or share a completed change.
+- [`git-workflow-and-versioning`](../skills/git-workflow-and-versioning/) — Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.
+- [`github-actions-templates`](../skills/github-actions-templates/) — Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.
+- [`github-automation`](../skills/github-automation/) — Operate GitHub issues, pull requests, branches, checks, workflows, and permissions through Rube MCP. Use when GitHub work must be queried or changed programmatically with repository-policy safeguards.
+- [`github-presence`](../skills/github-presence/) — When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing."
+- [`github-workflow-automation`](../skills/github-workflow-automation/) — Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
+- [`gitlab-automation`](../skills/gitlab-automation/) — Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.
+- [`gitlab-ci-patterns`](../skills/gitlab-ci-patterns/) — Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.
+- [`gmail-automation`](../skills/gmail-automation/) — Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
+- [`google-calendar-automation`](../skills/google-calendar-automation/) — Lightweight Google Calendar integration with standalone OAuth authentication. No MCP server required.
+- [`grill-me`](../skills/grill-me/) — A relentless interview to sharpen a plan or design.
+- [`grill-with-docs`](../skills/grill-with-docs/) — A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
+- [`grilling`](../skills/grilling/) — Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.
+- [`handoff`](../skills/handoff/) — Compact the current conversation into a handoff document for another agent to pick up.
+- [`i-have-adhd`](../skills/i-have-adhd/) — Shape output for ADHD readers: next action first, numbered steps, restated state, no tangents, time estimates, visible wins. Toggle with /i-have-adhd.
+- [`idea-darwin`](../skills/idea-darwin/) — Darwinian idea evolution engine — toss rough ideas onto an evolution island, let them compete, crossbreed, and mutate through structured rounds to surface your strongest concepts.
+- [`inngest`](../skills/inngest/) — Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers.
+- [`internal-comms`](../skills/internal-comms/) — A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+- [`interview-coach`](../skills/interview-coach/) — Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.
+- [`interview-me`](../skills/interview-me/) — Draw out what the user actually wants with one-question-at-a-time interviews until intent is clear — before any plan, spec, or code exists.
+- [`interview-style-doc-building`](../skills/interview-style-doc-building/) — Build structured strategy documents by asking one question at a time and patching the file.
+- [`issues`](../skills/issues/) — Interact with GitHub issues - create, list, and view issues.
+- [`iterate-pr`](../skills/iterate-pr/) — Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
+- [`jobgpt`](../skills/jobgpt/) — Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.
+- [`json-canvas`](../skills/json-canvas/) — Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.
+- [`lint-and-validate`](../skills/lint-and-validate/) — Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.
+- [`maintain-codex-wiki`](../skills/maintain-codex-wiki/) — Maintain a review-first engineering wiki with provenance, citation-aware queries, explicit capture and promotion, and deterministic checks.
+- [`markdown-rendering`](../skills/markdown-rendering/) — Open Markdown reliably in cmux panes and recover from blank rendered surfaces.
+- [`mdpr-skill`](../skills/mdpr-skill/) — Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries.
+- [`meeting-distiller-pro`](../skills/meeting-distiller-pro/) — Transform messy meeting notes and transcripts into structured action items, decisions, and follow-ups. Never lose a meeting insight again.
+- [`meeting-notes`](../skills/meeting-notes/) — Turns raw meeting notes into structured minutes: conclusion first, then decisions / action items / open questions; every action item must have an owner and a deadline. Use when the user pastes meeting transcripts or rough notes and asks for minutes or a summary.
+- [`ml-pipeline-workflow`](../skills/ml-pipeline-workflow/) — Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
+- [`nika`](../skills/nika/) — Runs repeatable AI work as checked, budgeted workflow files.
+- [`notion-knowledge-capture`](../skills/notion-knowledge-capture/) — Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.
+- [`notion-meeting-intelligence`](../skills/notion-meeting-intelligence/) — Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.
+- [`obsidian-bases`](../skills/obsidian-bases/) — Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.
+- [`obsidian-cli`](../skills/obsidian-cli/) — Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line.
+- [`obsidian-clipper-template-creator`](../skills/obsidian-clipper-template-creator/) — Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.
+- [`obsidian-markdown`](../skills/obsidian-markdown/) — Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.
+- [`office-productivity`](../skills/office-productivity/) — Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.
+- [`one-drive-automation`](../skills/one-drive-automation/) — Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.
+- [`os-scripting`](../skills/os-scripting/) — Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation.
+- [`pr-merge-champion`](../skills/pr-merge-champion/) — Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.
+- [`pr-writer`](../skills/pr-writer/) — Create pull requests following Sentry's engineering practices.
+- [`read-all-adrs`](../skills/read-all-adrs/) — Read every ADR in a project before summarizing architectural context or decisions.
+- [`receiving-code-review`](../skills/receiving-code-review/) — Code review requires technical evaluation, not emotional performance.
+- [`repo-maintainer`](../skills/repo-maintainer/) — Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening.
+- [`requesting-code-review`](../skills/requesting-code-review/) — Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- [`rich-elicitation`](../skills/rich-elicitation/) — Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.
+- [`screenshot`](../skills/screenshot/) — Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.
+- [`security-audit`](../skills/security-audit/) — Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.
+- [`session-handoff`](../skills/session-handoff/) — Use when context approaches capacity, before /clear or /compact, when switching tasks, or when ending a coding session: produces a structured handoff artifact for the next session.
+- [`setup-help`](../skills/setup-help/) — Walk a user through setup or installation one step at a time with the remaining steps visible.
+- [`speed`](../skills/speed/) — Launch RSVP speed reader for text
+- [`subagent-driven-development`](../skills/subagent-driven-development/) — Use when executing implementation plans with independent tasks in the current session
+- [`task-intelligence`](../skills/task-intelligence/) — Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário.
+- [`telegram-bot-messaging`](../skills/telegram-bot-messaging/) — Send Telegram messages, files, and alerts via bot API; ask questions with inline buttons and wait for the answer. Supports multiple bots, named chat targets, and CI/cron/hook notifications.
+- [`temporal-golang-pro`](../skills/temporal-golang-pro/) — Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns.
+- [`temporal-python-pro`](../skills/temporal-python-pro/) — Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.
+- [`testing-qa`](../skills/testing-qa/) — Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance.
+- [`time-ledger`](../skills/time-ledger/) — Natural-language time tracking: parse what the user says they did into Activity/Minutes/Date rows in their own Notion database — asking instead of guessing when unsure.
+- [`trading-ledger`](../skills/trading-ledger/) — A trading journal that captures the decision, not just the fill: thesis, plan, and emotion at the moment of entry, written to the user's own Notion database; reviews grade decisions, not P&L.
+- [`trigger-dev`](../skills/trigger-dev/) — Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design.
+- [`upstash-qstash`](../skills/upstash-qstash/) — Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure.
+- [`user-thoughts`](../skills/user-thoughts/) — Persist user decisions and project constraints to mdbase across sessions. Trigger on /user-thoughts or /ustht, or when the user discusses architecture, tech stack, rules, UI/UX, or project memory.
+- [`verification-before-completion`](../skills/verification-before-completion/) — Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state.
+- [`viboscope`](../skills/viboscope/) — Psychological compatibility matching — find cofounders, collaborators, and friends through validated psychometrics
+- [`wiki-builder`](../skills/wiki-builder/) — Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs.
+- [`wordpress`](../skills/wordpress/) — Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks.
+- [`workflow-automation`](../skills/workflow-automation/) — Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off.
+- [`workflow-orchestration-patterns`](../skills/workflow-orchestration-patterns/) — Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.
+- [`workflow-patterns`](../skills/workflow-patterns/) — Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.
+- [`workorai`](../skills/workorai/) — WorkorAI talent-marketplace skill: candidates search jobs and manage applications; employers run the job lifecycle and get ranked candidate matches with white-box fit explanations.

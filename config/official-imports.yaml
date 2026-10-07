@@ -1,0 +1,76 @@
+version: 1
+imported_on: "2026-10-07"
+defaults:
+  source_type: official
+  license: See the LICENSE file in the skill directory
+sources:
+  anthropic:
+    source: https://github.com/anthropics/skills
+    source_repo: anthropics/skills
+    skills:
+      academy-guide: {category: research-education, risk: safe}
+      algorithmic-art: {category: design-creative, risk: safe}
+      brand-guidelines: {category: design-creative, risk: none}
+      canvas-design: {category: design-creative, risk: safe}
+      claude-api: {category: ai-agents, risk: safe}
+      discernment-nudge: {category: meta-personas, risk: none}
+      doc-coauthoring: {category: content-media, risk: safe}
+      docx: {category: documents-office, risk: critical}
+      frontend-design: {category: software-development, risk: critical}
+      internal-comms: {category: productivity-collaboration, risk: none}
+      mcp-builder: {category: automation-integrations, risk: critical}
+      pdf: {category: documents-office, risk: critical}
+      pptx: {category: documents-office, risk: critical}
+      slack-gif-creator: {category: content-media, risk: safe}
+      skill-creator-anthropic: {category: meta-personas, risk: critical}
+      theme-factory: {category: design-creative, risk: safe}
+      web-artifacts-builder: {category: software-development, risk: critical}
+      webapp-testing: {category: software-development, risk: critical}
+      xlsx: {category: documents-office, risk: critical}
+  openai:
+    source: https://github.com/openai/skills
+    source_repo: openai/skills
+    skills:
+      aspnet-core: {category: software-development, risk: critical}
+      chatgpt-apps: {category: ai-agents, risk: critical}
+      cli-creator: {category: software-development, risk: critical}
+      cloudflare-deploy: {category: cloud-devops, risk: critical}
+      define-goal: {category: productivity-collaboration, risk: safe}
+      figma: {category: design-creative, risk: critical}
+      figma-code-connect-components: {category: design-creative, risk: critical}
+      figma-create-design-system-rules: {category: design-creative, risk: critical}
+      figma-create-new-file: {category: design-creative, risk: critical}
+      figma-generate-design: {category: design-creative, risk: critical}
+      figma-generate-library: {category: design-creative, risk: critical}
+      figma-implement-design: {category: design-creative, risk: critical}
+      figma-use: {category: design-creative, risk: critical}
+      gh-address-comments: {category: software-development, risk: critical}
+      gh-fix-ci: {category: software-development, risk: critical}
+      hatch-pet: {category: design-creative, risk: critical}
+      imagegen: {category: design-creative, risk: critical}
+      jupyter-notebook: {category: data-analytics, risk: critical}
+      linear: {category: product-operations, risk: critical}
+      migrate-to-codex: {category: ai-agents, risk: critical}
+      netlify-deploy: {category: cloud-devops, risk: critical}
+      notion-knowledge-capture: {category: productivity-collaboration, risk: critical}
+      notion-meeting-intelligence: {category: productivity-collaboration, risk: critical}
+      notion-research-documentation: {category: research-education, risk: critical}
+      notion-spec-to-implementation: {category: product-operations, risk: critical}
+      openai-docs: {category: ai-agents, risk: safe}
+      pdf-layout-review: {category: documents-office, risk: critical}
+      playwright: {category: software-development, risk: critical}
+      playwright-interactive: {category: software-development, risk: critical}
+      plugin-creator: {category: meta-personas, risk: critical}
+      render-deploy: {category: cloud-devops, risk: critical}
+      screenshot: {category: productivity-collaboration, risk: safe}
+      security-best-practices: {category: security, risk: safe}
+      security-ownership-map: {category: security, risk: safe}
+      security-threat-model: {category: security, risk: none}
+      sentry: {category: cloud-devops, risk: critical}
+      skill-creator: {category: meta-personas, risk: safe}
+      skill-installer: {category: meta-personas, risk: critical}
+      speech: {category: content-media, risk: critical}
+      transcribe: {category: content-media, risk: critical}
+      vercel-deploy: {category: cloud-devops, risk: critical}
+      winui-app: {category: software-development, risk: critical}
+      yeet: {category: software-development, risk: critical}

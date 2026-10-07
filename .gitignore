@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.tmp/
+tmp/
+.git-anthropic-backup/
+
+# Raw downloaded repositories are retained locally for provenance but are not
+# part of the canonical distributable. See sources/README.md and manifest.yaml.
+sources/*
+!sources/README.md
+!sources/manifest.yaml
+
+# Generated files use deterministic scripts and are committed intentionally.
+catalog/*.tmp

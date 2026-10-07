@@ -1,0 +1,57 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ASkills — The unified agent skills library</title>
+  <desc id="desc">A blue and violet banner with an interconnected skill graph and the ASkills name.</desc>
+  <defs>
+    <linearGradient id="bg" x1="86" y1="25" x2="1114" y2="375" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset="0.52" stop-color="#111B3D"/>
+      <stop offset="1" stop-color="#21133F"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="325" y1="121" x2="886" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="0.5" stop-color="#7C83FF"/>
+      <stop offset="1" stop-color="#C26BFF"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(224 84) rotate(42) scale(330 245)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(995 328) rotate(-135) scale(360 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="400" rx="28" fill="url(#glowA)"/>
+  <rect width="1200" height="400" rx="28" fill="url(#glowB)"/>
+  <g opacity="0.62">
+    <path d="M91 98L168 63L226 123L179 193L91 172L61 124L91 98Z" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M168 63L179 193M91 98L226 123M91 172L168 63" stroke="#38BDF8" stroke-opacity="0.5"/>
+    <circle cx="91" cy="98" r="7" fill="#67E8F9"/><circle cx="168" cy="63" r="9" fill="#60A5FA"/><circle cx="226" cy="123" r="6" fill="#818CF8"/><circle cx="179" cy="193" r="8" fill="#A78BFA"/><circle cx="91" cy="172" r="5" fill="#22D3EE"/>
+  </g>
+  <g opacity="0.56">
+    <path d="M978 201L1061 157L1131 220L1091 300L998 315L945 253L978 201Z" stroke="#C084FC" stroke-width="2"/>
+    <path d="M1061 157L1091 300M978 201L1131 220M998 315L1061 157M945 253L1131 220" stroke="#C084FC" stroke-opacity="0.5"/>
+    <circle cx="978" cy="201" r="6" fill="#818CF8"/><circle cx="1061" cy="157" r="9" fill="#A78BFA"/><circle cx="1131" cy="220" r="7" fill="#E879F9"/><circle cx="1091" cy="300" r="8" fill="#C084FC"/><circle cx="998" cy="315" r="5" fill="#818CF8"/><circle cx="945" cy="253" r="7" fill="#67E8F9"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="456" y="58" width="288" height="56" rx="28" fill="#0F172A" fill-opacity="0.8" stroke="#64748B" stroke-opacity="0.45"/>
+    <circle cx="486" cy="86" r="8" fill="#22D3EE"/>
+    <text x="510" y="94" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="1.5">UNIFIED SKILL LIBRARY</text>
+    <text x="600" y="226" text-anchor="middle" fill="url(#brand)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="-4">ASkills</text>
+    <text x="600" y="279" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0.8">Discover · Validate · Compose · Build</text>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600">
+    <rect x="405" y="318" width="112" height="40" rx="20" fill="#0EA5E9" fill-opacity="0.16" stroke="#38BDF8" stroke-opacity="0.55"/><text x="461" y="344" text-anchor="middle" fill="#BAE6FD">2,706 skills</text>
+    <rect x="534" y="318" width="132" height="40" rx="20" fill="#6366F1" fill-opacity="0.17" stroke="#818CF8" stroke-opacity="0.55"/><text x="600" y="344" text-anchor="middle" fill="#C7D2FE">18 domains</text>
+    <rect x="683" y="318" width="112" height="40" rx="20" fill="#A855F7" fill-opacity="0.17" stroke="#C084FC" stroke-opacity="0.55"/><text x="739" y="344" text-anchor="middle" fill="#E9D5FF">0 errors</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="398" rx="27" stroke="url(#brand)" stroke-opacity="0.35" stroke-width="2"/>
+</svg>

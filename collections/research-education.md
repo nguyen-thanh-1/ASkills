@@ -1,0 +1,70 @@
+# Research, Education & Science
+
+Research, education, science, health, learning, travel, and personal development.
+
+Skills: **64**
+
+- [`academy-guide`](../skills/academy-guide/) — Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: "how do I", "how can I", "getting started with", "what can Claude do", "teach me", "learn to use"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.
+- [`astropy`](../skills/astropy/) — Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis.
+- [`biopython`](../skills/biopython/) — Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks.
+- [`cirq`](../skills/cirq/) — Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.
+- [`deep-research-framework`](../skills/deep-research-framework/) — Framework for deep research reports: define the question and tier sources first, cross-verify, then write conclusion-first reports with explicit uncertainty statements. Use when the user asks for a research report, topic investigation, or competitive analysis.
+- [`deepapi`](../skills/deepapi/) — Use DeepAPI for supported scraping, research, and email workflows with explicit credentials and approval.
+- [`doc2math`](../skills/doc2math/) — Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.
+- [`dsh-deepread`](../skills/dsh-deepread/) — Use for evidence-first reading of articles, books, PDFs, web pages, or document sets, with knowledge maps and Feynman checks.
+- [`efficient-web-research`](../skills/efficient-web-research/) — Protocol for token-efficient web research. Use when accessing URLs, GitHub repos, or running search queries. Prevents full-page fetching waste.
+- [`emergency-card`](../skills/emergency-card/) — 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。
+- [`entropy-box`](../skills/entropy-box/) — Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots.
+- [`examprep-ai`](../skills/examprep-ai/) — Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy → Medium → Hard. Use for last-minute revision, important topics, and question prediction.
+- [`fact-check-x-complete`](../skills/fact-check-x-complete/) — Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.
+- [`family-health-analyzer`](../skills/family-health-analyzer/) — 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议
+- [`fitness-analyzer`](../skills/fitness-analyzer/) — 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
+- [`food-database-query`](../skills/food-database-query/) — Food Database Query
+- [`gemini-deep-research`](../skills/gemini-deep-research/) — Run autonomous multi-step research with Google's Gemini Deep Research Agent: kick off a query, poll progress, and collect a cited report for market analysis or literature reviews.
+- [`goal-analyzer`](../skills/goal-analyzer/) — 分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。
+- [`health-trend-analyzer`](../skills/health-trend-analyzer/) — 分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或"我的健康状况有什么变化？"时使用。支持多维度分析（体重/BMI、症状、药物依从性、化验结果、情绪睡眠），相关性分析，变化检测，以及交互式HTML可视化报告（ECharts图表）。
+- [`helium-mcp`](../skills/helium-mcp/) — Connect to Helium's MCP server for news research, media bias analysis, balanced perspectives, stock/options data, and semantic meme search across 3.2M+ articles and 5,000+ sources
+- [`ii-commons`](../skills/ii-commons/) — Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs.
+- [`jev-social`](../skills/jev-social/) — Run read-only, browser-grounded Instagram, TikTok, or LinkedIn research through Jev routing and socai CLI, returning source-linked evidence and reports.
+- [`last30days`](../skills/last30days/) — Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.
+- [`learn`](../skills/learn/) — Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.
+- [`lesson-generator`](../skills/lesson-generator/) — Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.
+- [`longbridge-research`](../skills/longbridge-research/) — Curated upstream guidance for Longbridge Research; use when the workflow matches the user goal.
+- [`matematico-tao`](../skills/matematico-tao/) — Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal.
+- [`mathguard`](../skills/mathguard/) — Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.
+- [`matplotlib`](../skills/matplotlib/) — Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.
+- [`mental-health-analyzer`](../skills/mental-health-analyzer/) — 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
+- [`multi-source-search`](../skills/multi-source-search/) — Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps.
+- [`networkx`](../skills/networkx/) — NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs.
+- [`news-sentiment-engine`](../skills/news-sentiment-engine/) — Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output
+- [`notion-research-documentation`](../skills/notion-research-documentation/) — Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
+- [`nutrition-analyzer`](../skills/nutrition-analyzer/) — 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。
+- [`occupational-health-analyzer`](../skills/occupational-health-analyzer/) — 分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。
+- [`oral-health-analyzer`](../skills/oral-health-analyzer/) — 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。
+- [`oss-hunter`](../skills/oss-hunter/) — Automatically hunt for high-impact OSS contribution opportunities in trending repositories.
+- [`papers-skill`](../skills/papers-skill/) — Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.
+- [`people-data`](../skills/people-data/) — Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search, and YouTube channel business-email discovery.
+- [`pi-web-search`](../skills/pi-web-search/) — Give Pi Agents a safe web-search and fetch workflow using the installed pi-web-access package.
+- [`puzzle-activity-planner`](../skills/puzzle-activity-planner/) — Plan puzzle-based activities for classrooms, parties, and events with pre-configured generator links
+- [`qiskit`](../skills/qiskit/) — Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Braket, and other providers.
+- [`quit-sponsor`](../skills/quit-sponsor/) — Helps an AI agent provide non-judgmental, evidence-informed quit-smoking support with user-consented tracking, craving check-ins, and escalation to human or clinical help. Not medical care.
+- [`rehabilitation-analyzer`](../skills/rehabilitation-analyzer/) — 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议
+- [`research-prompt`](../skills/research-prompt/) — Turn vague research needs into one precise deep-research prompt with context and output criteria.
+- [`satori`](../skills/satori/) — Clinically informed wisdom companion blending psychology and philosophy into a structured thinking partner
+- [`scanpy`](../skills/scanpy/) — Scanpy is a scalable Python toolkit for analyzing single-cell RNA-seq data, built on AnnData. Apply this skill for complete single-cell workflows including quality control, normalization, dimensionality reduction, clustering, marker gene identification, visualization, and trajectory analysis.
+- [`scarf-single-cell`](../skills/scarf-single-cell/) — Analyze single-cell RNA-seq at million-cell scale with Scarf: out-of-core Zarr stores on disk or object storage, provenance-tracked artifacts, audited QC, clustering, markers and donor comparisons.
+- [`seaborn`](../skills/seaborn/) — Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code.
+- [`sexual-health-analyzer`](../skills/sexual-health-analyzer/) — Sexual Health Analyzer
+- [`skin-health-analyzer`](../skills/skin-health-analyzer/) — Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
+- [`sleep-analyzer`](../skills/sleep-analyzer/) — 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。
+- [`statsmodels`](../skills/statsmodels/) — Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods.
+- [`survey-generator`](../skills/survey-generator/) — Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.
+- [`sympy`](../skills/sympy/) — SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
+- [`system-prompt-lookup`](../skills/system-prompt-lookup/) — Checks what a shipped AI product's system prompt and tool schema actually say, by reading a dated archive of captured prompts instead of recalling them. Use before asserting or accepting any claim about an agent's instructions.
+- [`tcm-constitution-analyzer`](../skills/tcm-constitution-analyzer/) — 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
+- [`teach`](../skills/teach/) — Teach the user a new skill or concept, within this workspace.
+- [`travel-health-analyzer`](../skills/travel-health-analyzer/) — 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。
+- [`travel-planner`](../skills/travel-planner/) — 旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。
+- [`weightloss-analyzer`](../skills/weightloss-analyzer/) — 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段
+- [`wellally-tech`](../skills/wellally-tech/) — Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/) knowledge base, providing data import and knowledge reference for personal health management systems.
+- [`youtube-transcript`](../skills/youtube-transcript/) — Fetch YouTube transcripts through DeepAPI or local fallback tooling and save clean text output.

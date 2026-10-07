@@ -1,0 +1,278 @@
+# Security, Compliance & Reverse Engineering
+
+Defensive security, compliance, authorized testing, forensics, and reverse engineering.
+
+Skills: **271**
+
+- [`007`](../skills/007/) — Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.
+- [`access-review`](../skills/access-review/) — Conduct periodic access reviews and certifications. Implement access governance and recertification workflows. Use when managing access compliance.
+- [`active-directory-attacks`](../skills/active-directory-attacks/) — Provide comprehensive techniques for attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration testing.
+- [`agy-auto`](../skills/agy-auto/) — Configure agy-auto PreToolUse security gate to run Antigravity CLI (agy) unattended with layered policy controls instead of --dangerously-skip-permissions.
+- [`ai-agent-security`](../skills/ai-agent-security/) — Secure AI agents against prompt injection, tool abuse, and data exfiltration with defense-in-depth controls.
+- [`ai-coding-agent-guardrails`](../skills/ai-coding-agent-guardrails/) — Secure AI coding agents (Claude Code, Cursor, Codex, Copilot) with permission boundaries, secret protection, code review gates, and safe sandbox configurations for team environments.
+- [`ai-red-teaming`](../skills/ai-red-teaming/) — Run structured AI red team exercises for jailbreak resistance, data exfiltration risk, harmful output controls, and agent tool abuse resilience.
+- [`ai-security-hardening`](../skills/ai-security-hardening/) — Harden AI/LLM deployments against prompt injection, data exfiltration, model theft, and supply chain attacks.
+- [`akf-trust-metadata`](../skills/akf-trust-metadata/) — The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing.
+- [`anti-reversing-techniques`](../skills/anti-reversing-techniques/) — AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1.
+- [`apk-redteam-pipeline`](../skills/apk-redteam-pipeline/) — End-to-end Android APK red-team pipeline
+- [`apk-reverse`](../skills/apk-reverse/) — Android APK reverse engineering: unpacking, Java decompilation, smali modification, repacking and signing, Frida dynamic hooking, and native .so analysis with jadx, apktool, adb, and related tools.
+- [`asset-inventory`](../skills/asset-inventory/) — Maintain IT asset inventory and configuration management database. Track hardware, software, and cloud resources. Use when managing IT assets.
+- [`attack-chain`](../skills/attack-chain/) — Authorized multi-stage attack-path planning and orchestration spanning reconnaissance, initial access, privilege escalation, lateral movement, and reporting. Entry point for full engagements and cross-phase operations.
+- [`attack-tree-construction`](../skills/attack-tree-construction/) — Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders.
+- [`audit-logging`](../skills/audit-logging/) — Implement centralized audit logging and SIEM integration. Configure log retention and security monitoring. Use when implementing audit trail requirements.
+- [`audit-skills`](../skills/audit-skills/) — Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).
+- [`auth-implementation-patterns`](../skills/auth-implementation-patterns/) — Implement or review authentication and authorization with explicit token, session and resource-access boundaries.
+- [`aws-cloudtrail`](../skills/aws-cloudtrail/) — Configure AWS CloudTrail for audit logging. Set up organization trails and event analysis. Use when auditing AWS activity.
+- [`aws-compliance-checker`](../skills/security/aws-compliance-checker/) — Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
+- [`aws-iam-best-practices`](../skills/security/aws-iam-best-practices/) — IAM policy review, hardening, and least privilege implementation
+- [`aws-secrets-manager`](../skills/aws-secrets-manager/) — Store and rotate secrets in AWS Secrets Manager.
+- [`aws-secrets-rotation`](../skills/security/aws-secrets-rotation/) — Automate AWS secrets rotation for RDS, API keys, and credentials
+- [`aws-security-audit`](../skills/security/aws-security-audit/) — Comprehensive AWS security posture assessment using AWS CLI and security best practices
+- [`azure-keyvault`](../skills/azure-keyvault/) — Manage secrets and certificates in Azure Key Vault. Configure access policies, integrate with Azure services, and implement secure secret management. Use when managing secrets in Azure environments.
+- [`azure-monitor-audit`](../skills/azure-monitor-audit/) — Configure Azure Monitor and Activity Log for auditing. Set up diagnostic settings and log analytics. Use when auditing Azure activity.
+- [`bb-methodology`](../skills/bb-methodology/) — Use at the START of any bug bounty hunting session, when switching targets, or when feeling lost about what to do next.
+- [`binary-analysis-patterns`](../skills/binary-analysis-patterns/) — Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.
+- [`binary-diff`](../skills/binary-diff/) — Cross-version binary symbol migration: diff updated binaries, recover function names without PDBs, and propagate annotations after software updates using BinDiff-style tooling.
+- [`broken-authentication`](../skills/broken-authentication/) — Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems.
+- [`bug-bounty`](../skills/bug-bounty/) — Complete bug bounty workflow
+- [`bugcrowd-reporting`](../skills/bugcrowd-reporting/) — Bugcrowd-specific reporting tactics complementing report-writing
+- [`bumblebee`](../skills/bumblebee/) — Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.
+- [`burp-suite-testing`](../skills/burp-suite-testing/) — Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.
+- [`burpsuite-project-parser`](../skills/burpsuite-project-parser/) — Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.
+- [`business-continuity`](../skills/business-continuity/) — Develop business continuity plans and impact analysis. Implement BCP testing and communication procedures. Use when building organizational resilience.
+- [`case-review`](../skills/case-review/) — Quality-gate review of a reverse-engineering or assessment case package: scope readiness, Evidence-to-Finding-to-Path traceability, work-item coverage, timeline consistency, and artifact hashes.
+- [`change-management`](../skills/change-management/) — Implement change management processes. Configure CAB reviews, change windows, and rollback procedures. Use when managing production changes.
+- [`cis-benchmarks`](../skills/cis-benchmarks/) — Audit and remediate CIS benchmark violations.
+- [`clerk-auth`](../skills/clerk-auth/) — Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync
+- [`client-secret-exposure-audit`](../skills/client-secret-exposure-audit/) — Audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig.
+- [`cloud-iam-deep`](../skills/cloud-iam-deep/) — Cloud IAM red-team attack chain across AWS, Azure, GCP
+- [`cloud-k8s`](../skills/cloud-k8s/) — Authorized cloud, container, and Kubernetes security assessment: metadata SSRF, IAM misconfiguration, container escape paths, and cluster RBAC review.
+- [`cloudflare-security-audit`](../skills/cloudflare-security-audit/) — Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting.
+- [`constant-time-analysis`](../skills/constant-time-analysis/) — Analyze cryptographic code to detect operations that leak secret data through execution timing variations.
+- [`container-hardening`](../skills/container-hardening/) — Secure Docker images and container runtime configurations.
+- [`container-scanning`](../skills/container-scanning/) — Scan container images for vulnerabilities using Trivy, Grype, and cloud-native tools.
+- [`container-security-hardening`](../skills/container-security-hardening/) — Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes pod security controls. Use for Dockerfile security reviews, container CVEs, image scanning, distroless images, or production hardening.
+- [`cred-omega`](../skills/cred-omega/) — CISO operacional enterprise para gestao total de credenciais e segredos.
+- [`cyber-audit`](../skills/cyber-audit/) — Run read-only exposure checks for security advisories and write a structured local audit report.
+- [`darkmoon-pentest`](../skills/darkmoon-pentest/) — Start, follow and triage authorized autonomous AI pentest runs on a self-hosted Darkmoon Pro instance through its MCP server.
+- [`dast-scanning`](../skills/dast-scanning/) — Perform dynamic application security testing with OWASP ZAP, Burp Suite, and Nikto.
+- [`dependency-management-deps-audit`](../skills/dependency-management-deps-audit/) — You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [`dependency-scanning`](../skills/dependency-scanning/) — Scan package dependencies for known vulnerabilities using Snyk, Dependabot, and OWASP Dependency-Check.
+- [`differential-review`](../skills/differential-review/) — Security-focused code review for PRs, commits, and diffs.
+- [`digital-forensics`](../skills/digital-forensics/) — Authorized digital forensics: memory dumps, disk timelines, PCAP investigation, artifact triage, and incident-response evidence preservation.
+- [`disaster-recovery`](../skills/disaster-recovery/) — Implement disaster recovery strategies and runbooks. Configure RPO/RTO targets and failover procedures. Use when planning for business continuity.
+- [`dotnet-reverse`](../skills/dotnet-reverse/) — .NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling.
+- [`dsl-vm-reverse`](../skills/reverse-engineering/dsl-vm-reverse/) — Reverse JavaScript-based custom DSL/VM interpreters and risk-control engines: identify IIFE/switch-based opcode dispatch, extract opcode tables, and capture runtime semantics.
+- [`edr-bypass-re`](../skills/edr-bypass-re/) — Reverse engineer EDR internals (user-mode hook tables, ETW, AMSI) and study bypass techniques such as direct syscalls, Hell's Gate, and call-stack spoofing. Lab-only red-team research.
+- [`email-security`](../skills/email-security/) — Authorized email security review: phishing analysis, SPF/DKIM/DMARC header authentication, BEC pattern investigation, and mailbox token abuse research.
+- [`enterprise-vpn-attack`](../skills/enterprise-vpn-attack/) — External SSL VPN / remote-access appliance attack matrix
+- [`ethical-hacking-methodology`](../skills/ethical-hacking-methodology/) — Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments.
+- [`evidence-hygiene`](../skills/evidence-hygiene/) — Evidence-capture and PoC-redaction discipline for bug-bounty submissions
+- [`fedramp-compliance`](../skills/fedramp-compliance/) — Implement FedRAMP requirements for federal cloud services. Configure NIST 800-53 controls and continuous monitoring. Use when providing cloud services to US federal agencies.
+- [`ffuf-claude-skill`](../skills/ffuf-claude-skill/) — Web fuzzing with ffuf
+- [`ffuf-web-fuzzing`](../skills/ffuf-web-fuzzing/) — Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+- [`file-path-traversal`](../skills/file-path-traversal/) — Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially including sensitive configuration files, credentials, and source code.
+- [`file-uploads`](../skills/file-uploads/) — Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking.
+- [`firewall-config`](../skills/firewall-config/) — Configure iptables, nftables, and cloud firewalls. Implement network segmentation and traffic filtering. Use when securing network perimeters or implementing security zones.
+- [`firmware-analyst`](../skills/firmware-analyst/) — Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+- [`firmware-pentest`](../skills/firmware-pentest/) — Firmware penetration testing following the OWASP FSTM nine-stage flow: extraction, EMBA automation, Firmadyne/QEMU emulation, AFL++ fuzzing, and hands-on exploitation in authorized labs.
+- [`frontend-security-coder`](../skills/frontend-security-coder/) — Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.
+- [`fsi-compliance-checker`](../skills/fsi-compliance-checker/) — Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.
+- [`gcp-audit-logs`](../skills/gcp-audit-logs/) — Configure GCP Cloud Audit Logs for compliance. Set up log routing and BigQuery analysis. Use when auditing GCP activity.
+- [`gcp-secret-manager`](../skills/gcp-secret-manager/) — Secure secrets in Google Cloud Secret Manager. Configure IAM policies, integrate with GKE, and manage secret versions. Use when managing secrets in GCP environments.
+- [`gdpr-compliance`](../skills/gdpr-compliance/) — Implement GDPR data protection requirements. Configure consent management, data subject rights, and privacy by design. Use when processing EU personal data.
+- [`gdpr-data-handling`](../skills/gdpr-data-handling/) — Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.
+- [`gha-security-review`](../skills/gha-security-review/) — Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it.
+- [`ghidra-reverse`](../skills/ghidra-reverse/) — Free/open reverse engineering with Ghidra (headless or GUI): decompilation, cross-references, scripting, and optional Ghidra MCP workflows when IDA is unavailable.
+- [`hardware-security`](../skills/hardware-security/) — Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.
+- [`hashicorp-vault`](../skills/hashicorp-vault/) — Manage secrets and PKI with HashiCorp Vault.
+- [`hipaa-compliance`](../skills/hipaa-compliance/) — Implement HIPAA security and privacy rules. Configure PHI protections and BAA requirements. Use when handling healthcare data.
+- [`html-injection-testing`](../skills/html-injection-testing/) — Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms.
+- [`hunt-api-misconfig`](../skills/hunt-api-misconfig/) — Hunt API security misconfiguration
+- [`hunt-aspnet`](../skills/hunt-aspnet/) — Hunt ASP.NET-specific surface
+- [`hunt-ato`](../skills/hunt-ato/) — Hunt account takeover taxonomy
+- [`hunt-auth-bypass`](../skills/hunt-auth-bypass/) — Hunting skill for auth bypass vulnerabilities.
+- [`hunt-brute-force`](../skills/hunt-brute-force/) — Hunt Missing/Weak Rate Limiting
+- [`hunt-business-logic`](../skills/hunt-business-logic/) — Hunting skill for business logic vulnerabilities.
+- [`hunt-cache-poison`](../skills/hunt-cache-poison/) — Hunting skill for cache poison vulnerabilities.
+- [`hunt-captcha-bypass`](../skills/hunt-captcha-bypass/) — Hunt CAPTCHA Bypass
+- [`hunt-cicd`](../skills/hunt-cicd/) — Hunt CI/CD pipeline vulnerabilities
+- [`hunt-clickjacking`](../skills/hunt-clickjacking/) — Hunt Clickjacking
+- [`hunt-cloud-misconfig`](../skills/hunt-cloud-misconfig/) — Hunt cloud / infrastructure misconfigurations.
+- [`hunt-cors`](../skills/hunt-cors/) — Hunt CORS Misconfiguration
+- [`hunt-csrf`](../skills/hunt-csrf/) — Hunting skill for csrf vulnerabilities.
+- [`hunt-deserialization`](../skills/hunt-deserialization/) — Hunt Insecure Deserialization
+- [`hunt-dispatch`](../skills/hunt-dispatch/) — Skill-set loader for /hunt orchestrator.
+- [`hunt-dom`](../skills/hunt-dom/) — Hunt client-side DOM vulnerabilities
+- [`hunt-exceptional-conditions`](../skills/hunt-exceptional-conditions/) — Hunt mishandling of exceptional conditions
+- [`hunt-file-upload`](../skills/hunt-file-upload/) — Hunt file upload bugs
+- [`hunt-fintech-graphql`](../skills/hunt-fintech-graphql/) — Hunt fintech-specific GraphQL vulnerabilities
+- [`hunt-forgot-password`](../skills/hunt-forgot-password/) — Hunt Forgot Password / Account Recovery Authentication Flaws
+- [`hunt-graphql`](../skills/hunt-graphql/) — Hunting skill for graphql vulnerabilities.
+- [`hunt-grpc`](../skills/hunt-grpc/) — Hunt gRPC vulnerabilities
+- [`hunt-host-header`](../skills/hunt-host-header/) — Hunt Host Header Injection
+- [`hunt-html-injection`](../skills/hunt-html-injection/) — Hunt HTML Injection
+- [`hunt-http-smuggling`](../skills/hunt-http-smuggling/) — Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE).
+- [`hunt-idor`](../skills/hunt-idor/) — Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target.
+- [`hunt-jwt-crypto`](../skills/hunt-jwt-crypto/) — Hunt JWT cryptographic failures
+- [`hunt-k8s`](../skills/hunt-k8s/) — Hunt Kubernetes & Docker
+- [`hunt-laravel`](../skills/hunt-laravel/) — Hunt Laravel specific vulnerabilities
+- [`hunt-ldap`](../skills/hunt-ldap/) — Hunt LDAP Injection and XPath Injection
+- [`hunt-lfi`](../skills/hunt-lfi/) — Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path Traversal
+- [`hunt-llm-ai`](../skills/hunt-llm-ai/) — Hunt LLM/AI feature bugs
+- [`hunt-mfa-bypass`](../skills/hunt-mfa-bypass/) — Hunt MFA / 2FA bypass
+- [`hunt-misc`](../skills/hunt-misc/) — Hunting skill for misc vulnerabilities. Built from 225 public bug bounty reports. Use when hunting misc on any target.
+- [`hunt-nextjs`](../skills/hunt-nextjs/) — Hunt Next.js specific vulnerabilities
+- [`hunt-nodejs`](../skills/hunt-nodejs/) — Hunt Node.js specific vulnerabilities
+- [`hunt-nosqli`](../skills/hunt-nosqli/) — Hunt NoSQL Injection
+- [`hunt-ntlm-info`](../skills/hunt-ntlm-info/) — Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/Exchange.
+- [`hunt-oauth`](../skills/hunt-oauth/) — Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty reports. Use when hunting oauth on any target.
+- [`hunt-open-redirect`](../skills/hunt-open-redirect/) — Hunt Open Redirect
+- [`hunt-race-condition`](../skills/hunt-race-condition/) — Hunting skill for race condition vulnerabilities.
+- [`hunt-rag-vector`](../skills/hunt-rag-vector/) — Hunt vector-store / embedding-layer weaknesses in RAG pipelines (OWASP LLM08 Vector and Embedding Weaknesses)
+- [`hunt-rce`](../skills/hunt-rce/) — Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. Use when hunting rce on any target.
+- [`hunt-saml`](../skills/hunt-saml/) — Hunt SAML / SSO attacks.
+- [`hunt-session`](../skills/hunt-session/) — Hunt Session Management vulnerabilities
+- [`hunt-shadow-api`](../skills/hunt-shadow-api/) — Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper Inventory Management)
+- [`hunt-sharepoint`](../skills/hunt-sharepoint/) — Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) on-prem farms
+- [`hunt-source-leak`](../skills/hunt-source-leak/) — Hunt source code and build artifact leakage
+- [`hunt-spa-api`](../skills/hunt-spa-api/) — Discover a single-page-app's hidden backend API from its public JS bundle, then test that API for broken access control / missing authentication.
+- [`hunt-springboot`](../skills/hunt-springboot/) — Hunt Spring Boot specific vulnerabilities
+- [`hunt-sqli`](../skills/hunt-sqli/) — Hunting skill for sqli vulnerabilities.
+- [`hunt-ssrf`](../skills/hunt-ssrf/) — Hunting skill for ssrf vulnerabilities.
+- [`hunt-ssti`](../skills/hunt-ssti/) — Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), Twig (Symfony), Freemarker (Java), ERB (Rails), Spring, Velocity, Mako, Thymeleaf, Smarty.
+- [`hunt-subdomain`](../skills/hunt-subdomain/) — Hunting skill for subdomain takeover vulnerabilities.
+- [`hunt-tls-network`](../skills/hunt-tls-network/) — Hunt TLS/SSL and DNS misconfigurations
+- [`hunt-websocket`](../skills/hunt-websocket/) — Hunt WebSocket vulnerabilities
+- [`hunt-xss`](../skills/hunt-xss/) — Hunting skill for xss vulnerabilities.
+- [`hunt-xxe`](../skills/hunt-xxe/) — Hunting skill for xxe vulnerabilities.
+- [`ida-reverse`](../skills/ida-reverse/) — Reverse engineer binaries with IDA Pro: decompilation, disassembly, data-flow tracking, cross-references, and IDA MCP automation for deep static analysis of PE/ELF/Mach-O targets.
+- [`identity-federation`](../skills/identity-federation/) — Authorized assessment of federated identity systems: SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token-confusion issues.
+- [`idor-testing`](../skills/idor-testing/) — Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.
+- [`incident-management`](../skills/incident-management/) — Implement incident management processes and escalation procedures. Configure on-call schedules and post-incident reviews. Use when managing production incidents.
+- [`incident-response`](../skills/incident-response/) — Handle security incidents with IR playbooks and procedures.
+- [`infinity`](../skills/infinity/) — Enforces a strict input boundary protocol (detect, classify, filter, verify) to ensure untrusted data never reaches business logic raw.
+- [`ios-redteam-pipeline`](../skills/ios-redteam-pipeline/) — End-to-end iOS red-team pipeline
+- [`iso27001-compliance`](../skills/iso27001-compliance/) — Implement ISO 27001 Information Security Management System. Configure ISMS controls and risk management. Use when implementing enterprise security frameworks.
+- [`js-reverse`](../skills/js-reverse/) — Front-end JavaScript reverse engineering: locate signature chains, analyze encrypted request parameters, sample runtime behavior, and reproduce logic locally in Node for evidence-based output.
+- [`kubernetes-hardening`](../skills/kubernetes-hardening/) — Implement Kubernetes security contexts, Pod Security Standards, and network policies.
+- [`laravel-security-audit`](../skills/laravel-security-audit/) — Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.
+- [`linux-hardening`](../skills/linux-hardening/) — Apply CIS benchmarks and secure Linux servers.
+- [`linux-privilege-escalation`](../skills/linux-privilege-escalation/) — Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control.
+- [`llm-app-security`](../skills/llm-app-security/) — Secure LLM-powered applications with input validation, output controls, tenant isolation, and abuse prevention.
+- [`m365-entra-attack`](../skills/m365-entra-attack/) — Microsoft 365 / Entra ID red-team attack chain
+- [`macos-reverse`](../skills/macos-reverse/) — Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.
+- [`malware-analysis`](../skills/malware-analysis/) — Analyze suspected malware through static, dynamic, and behavioral techniques: IOC extraction, YARA/Sigma rule authoring, sandbox orchestration, and anti-analysis detection.
+- [`malware-analyst`](../skills/malware-analyst/) — Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.
+- [`marketplace-rbac-audit`](../skills/marketplace-rbac-audit/) — Audit multi-role marketplace authorization across roles, resource ownership, tenant boundaries, and order-state transitions; use when access rules need evidence, not UI assumptions.
+- [`mcp-dependency-drift-audit`](../skills/mcp-dependency-drift-audit/) — Statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.
+- [`mcp-server-security`](../skills/mcp-server-security/) — Secure Model Context Protocol (MCP) servers with transport encryption, tool authorization, input validation, and audit logging for safe AI agent integrations.
+- [`meme-coin-audit`](../skills/meme-coin-audit/) — Meme coin and token security audit
+- [`memory-forensics`](../skills/memory-forensics/) — Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
+- [`metasploit-framework`](../skills/metasploit-framework/) — ⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited.
+- [`mid-engagement-ir-detection`](../skills/mid-engagement-ir-detection/) — Methodology for detecting client SOC patches, attacker activity, and security-state changes that occur DURING a red-team engagement
+- [`mobile-reverse`](../skills/mobile-reverse/) — Authorized Android/iOS application reverse engineering and security testing: APK/IPA analysis, runtime instrumentation (Frida/Objection), SSL-pinning and jailbreak/root-detection bypass, per OWASP MASTG.
+- [`mobile-security-coder`](../skills/mobile-security-coder/) — Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.
+- [`model-supply-chain-security`](../skills/model-supply-chain-security/) — Secure the AI model supply chain with artifact signing, provenance attestation, SBOM workflows, dependency controls, and trusted model promotion.
+- [`mtls-configuration`](../skills/mtls-configuration/) — Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
+- [`nextjs-supabase-auth`](../skills/nextjs-supabase-auth/) — Expert integration of Supabase Auth with Next.js App Router
+- [`offensive-osint`](../skills/offensive-osint/) — Operational arsenal for authorized external red-team and bug-bounty recon.
+- [`okta-attack`](../skills/okta-attack/) — Okta-as-IdP red-team attack chain
+- [`openclaw-deployment-hardening`](../skills/openclaw-deployment-hardening/) — Secure OpenClaw deployments with preflight hardening checks, CI/CD guardrails, container runtime restrictions, and post-deploy verification.
+- [`osint-methodology`](../skills/osint-methodology/) — Comprehensive OSINT methodology for external red-team operations and authorized attack-surface assessments.
+- [`ot-ics`](../skills/ot-ics/) — Authorized OT/ICS security assessment: Purdue-model zoning review, PLC/SCADA exposure, industrial protocol discovery, and passive-first evaluation discipline.
+- [`patch-diff-exploit`](../skills/patch-diff-exploit/) — Locate vulnerability fixes in vendor patches, diff binaries across versions, and build N-day PoCs. Attack-side complement to binary-diff for authorized research.
+- [`pci-compliance`](../skills/pci-compliance/) — Review payment data flows and engineering control evidence for a scoped PCI assessment, without claiming certification.
+- [`pci-dss-compliance`](../skills/pci-dss-compliance/) — Implement PCI DSS requirements for payment card data. Configure cardholder data environment and security controls. Use when processing payment cards.
+- [`penetration-testing`](../skills/penetration-testing/) — Perform basic penetration testing and security assessments.
+- [`pentest-checklist`](../skills/pentest-checklist/) — Provide a comprehensive checklist for planning, executing, and following up on penetration tests. Ensure thorough preparation, proper scoping, and effective remediation of discovered vulnerabilities.
+- [`pentest-commands`](../skills/pentest-commands/) — Provide a comprehensive command reference for penetration testing tools including network scanning, exploitation, password cracking, and web application testing. Enable quick command lookup during security assessments.
+- [`pentest-tools`](../skills/pentest-tools/) — Operate 20+ penetration-testing tools (Nmap, Nuclei, SQLMap, FFUF, Hashcat, and more) through structured workflows with consistent output handling.
+- [`permission-manager`](../skills/permission-manager/) — Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns
+- [`policy-as-code`](../skills/policy-as-code/) — Implement policy as code with OPA, Sentinel, and Kyverno. Automate policy enforcement in CI/CD and infrastructure. Use when enforcing compliance through automation.
+- [`privacy-by-design`](../skills/privacy-by-design/) — Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption.
+- [`privacy-mask`](../skills/privacy-mask/) — Mask, redact, anonymize and censor sensitive information (PII) in screenshots and images — phone numbers, emails, IDs, API keys, crypto wallets, credit cards, passwords, and more.
+- [`privilege-escalation-methods`](../skills/privilege-escalation-methods/) — Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations.
+- [`production-audit`](../skills/production-audit/) — Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.
+- [`prompt-injection-defense`](../skills/prompt-injection-defense/) — Defend AI systems against prompt injection and indirect prompt attacks using input controls, tool permissions, output validation, and isolation boundaries.
+- [`protocol-reverse`](../skills/protocol-reverse/) — Authorized reverse engineering of custom binary protocols, Protobuf/gRPC schemas, WebSocket frames, and PCAP-driven protocol recovery.
+- [`protocol-reverse-engineering`](../skills/protocol-reverse-engineering/) — Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
+- [`pwn-chain`](../skills/pwn-chain/) — Go from reverse engineering to a working exploit: stack/heap/kernel pwn workflows with pwntools, libc-database, ROP, and stabilization from CTF to authorized remote targets.
+- [`radare2`](../skills/radare2/) — Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.
+- [`radio-sdr`](../skills/radio-sdr/) — Authorized RF/SDR security research: signal identification, replay-feasibility study in shielded labs, and wireless protocol analysis outside regulated bands.
+- [`recon-scope-triage`](../skills/recon-scope-triage/) — Triage ASM/recon output for ownership before testing
+- [`red-team-tactics`](../skills/red-team-tactics/) — Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
+- [`red-team-tools`](../skills/red-team-tools/) — Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces.
+- [`redteam-mindset`](../skills/redteam-mindset/) — Red-team operator discipline
+- [`redteam-report-template`](../skills/redteam-report-template/) — Client-facing red-team deliverable format
+- [`report-writing`](../skills/report-writing/) — Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi
+- [`reverse-engineer`](../skills/reverse-engineer/) — Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
+- [`reverse-engineering`](../skills/reverse-engineering/) — General reverse-engineering methodology for compiled, obfuscated, packed, or virtualized targets: GDB, Frida, angr, Unicorn, and Qiling workflows across languages and platforms, with anti-analysis countermeasures.
+- [`runbook-creation`](../skills/runbook-creation/) — Create operational runbooks and standard operating procedures. Document troubleshooting guides and recovery procedures. Use when documenting operational knowledge.
+- [`sast-configuration`](../skills/sast-configuration/) — Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.
+- [`sast-scanning`](../skills/sast-scanning/) — Perform static application security testing with tools like Semgrep, CodeQL, and SonarQube.
+- [`sbom-supply-chain`](../skills/sbom-supply-chain/) — Generate, sign, and verify SBOMs and provenance attestations to secure the software supply chain. Use when implementing SLSA controls, artifact trust policies, or compliance evidence for releases.
+- [`scanning-tools`](../skills/scanning-tools/) — Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories.
+- [`secrets-management`](../skills/secrets-management/) — Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
+- [`security-and-hardening`](../skills/security-and-hardening/) — Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.
+- [`security-arsenal`](../skills/security-arsenal/) — Security payloads, bypass tables, wordlists, gf pattern names, always-rejected bug list, and conditionally-valid-with-chain table.
+- [`security-auditor`](../skills/security-auditor/) — Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
+- [`security-automation`](../skills/security-automation/) — Automate security workflows and remediation. Build security pipelines, automate compliance checks, and implement SOAR capabilities. Use when scaling security operations or implementing DevSecOps.
+- [`security-best-practices`](../skills/security-best-practices/) — Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.
+- [`security-bluebook-builder`](../skills/security-bluebook-builder/) — Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates.
+- [`security-compliance-compliance-check`](../skills/security-compliance-compliance-check/) — You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance for achieving and maintaining compliance.
+- [`security-ownership-map`](../skills/security-ownership-map/) — Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.
+- [`security-requirement-extraction`](../skills/security-requirement-extraction/) — Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.
+- [`security-scanning-security-dependencies`](../skills/security-scanning-security-dependencies/) — You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies.
+- [`security-scanning-security-hardening`](../skills/security-scanning-security-hardening/) — Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.
+- [`security-scanning-security-sast`](../skills/security-scanning-security-sast/) — Static Application Security Testing (SAST) for code vulnerability
+analysis across multiple languages and frameworks
+- [`security-threat-model`](../skills/security-threat-model/) — Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.
+- [`semgrep-rule-creator`](../skills/semgrep-rule-creator/) — Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
+- [`semgrep-rule-variant-creator`](../skills/semgrep-rule-variant-creator/) — Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
+- [`sharp-edges`](../skills/sharp-edges/) — sharp-edges
+- [`shodan-reconnaissance`](../skills/shodan-reconnaissance/) — Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements.
+- [`skill-audit`](../skills/skill-audit/) — Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
+- [`skill-security-audit`](../skills/skill-security-audit/) — Audit an Agent Skill, MCP server, connector, or desktop extension before installation by tracing code, dependencies, permissions, credentials, data flow, and irreversible actions.
+- [`smtp-penetration-testing`](../skills/smtp-penetration-testing/) — Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration.
+- [`soc2-compliance`](../skills/soc2-compliance/) — Implement SOC 2 Trust Services Criteria. Configure security, availability, and processing integrity controls. Use when achieving SOC 2 certification.
+- [`solidity-security`](../skills/solidity-security/) — Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.
+- [`sops-encryption`](../skills/sops-encryption/) — Encrypt files and configs with Mozilla SOPS.
+- [`sql-injection-testing`](../skills/sql-injection-testing/) — Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, and validate input sanitization mechanisms.
+- [`src-hunter`](../skills/pentest-tools/src-hunter/) — Bug-bounty/SRC vulnerability-hunting workflow: five-phase methodology (intake, recon, enumeration, hunt, report) with attack playbooks for SQLi, XSS, RCE, SSRF, IDOR, CSRF, path traversal, and file upload.
+- [`ssh-penetration-testing`](../skills/ssh-penetration-testing/) — Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation, tunneling techniques, and post-exploitation activities. This skill covers the complete methodology for testing SSH service security.
+- [`ssl-tls-management`](../skills/ssl-tls-management/) — Manage SSL/TLS certificates with Let's Encrypt and internal PKI. Configure secure HTTPS, certificate renewal, and cipher suites. Use when implementing secure communications.
+- [`stride-analysis-patterns`](../skills/stride-analysis-patterns/) — Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation.
+- [`supply-chain-attack-recon`](../skills/supply-chain-attack-recon/) — External recon for software supply-chain attack surface
+- [`supply-chain-attack-response`](../skills/supply-chain-attack-response/) — Detect, respond to, and prevent software supply chain attacks on package registries, container images, and CI/CD pipelines with lockfile auditing, provenance verification
+- [`supply-chain-risk-auditor`](../skills/supply-chain-risk-auditor/) — Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
+- [`supply-chain-security`](../skills/supply-chain-security/) — Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification.
+- [`thick-client`](../skills/thick-client/) — Authorized security testing of desktop thick clients: local storage, update channels, IPC, traffic interception, and client-side trust-boundary review.
+- [`threat-hunting`](../skills/threat-hunting/) — Blue-team threat hunting: detection engineering with Sigma/YARA, SIEM query design, and validation of incident detections against known technique patterns.
+- [`threat-intelligence`](../skills/threat-intelligence/) — Authorized OSINT and cyber threat intelligence: enriching IOCs, campaigns, impersonation, scams, and threat-actor profiles from public sources with defined boundaries.
+- [`threat-mitigation-mapping`](../skills/threat-mitigation-mapping/) — Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness.
+- [`threat-modeling`](../skills/threat-modeling/) — Conduct threat modeling using STRIDE methodology. Identify threats, assess risks, and design security controls. Use when designing secure systems or assessing application security.
+- [`threat-modeling-expert`](../skills/threat-modeling-expert/) — Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.
+- [`top-web-vulnerabilities`](../skills/top-web-vulnerabilities/) — Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats.
+- [`triage-validation`](../skills/triage-validation/) — Finding validation before writing any report
+- [`variant-analysis`](../skills/variant-analysis/) — Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.
+- [`varlock`](../skills/varlock/) — Secure-by-default environment variable management for Claude Code sessions.
+- [`varlock-claude-skill`](../skills/varlock-claude-skill/) — Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits
+- [`vendor-management`](../skills/vendor-management/) — Implement vendor risk management programs. Assess third-party security and maintain vendor inventory. Use when managing supplier security.
+- [`vmware-vcenter-attack`](../skills/vmware-vcenter-attack/) — VMware vSphere / vCenter Server external attack matrix
+- [`vpn-setup`](../skills/vpn-setup/) — Configure WireGuard, OpenVPN, and cloud VPNs. Implement secure remote access and site-to-site connectivity. Use when setting up secure network tunnels.
+- [`vulnerability-scanner`](../skills/vulnerability-scanner/) — Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.
+- [`vulnerability-scanning`](../skills/vulnerability-scanning/) — Scan systems and dependencies for CVEs and security vulnerabilities.
+- [`waf-setup`](../skills/waf-setup/) — Deploy and tune Web Application Firewalls. Configure rules for OWASP Top 10 protection. Use when protecting web applications from common attacks.
+- [`web2-recon`](../skills/web2-recon/) — Web2 recon pipeline
+- [`web3-audit`](../skills/web3-audit/) — Smart contract security audit
+- [`wifi-wireless`](../skills/wifi-wireless/) — Authorized wireless security assessment: Wi-Fi capture, WPA handshake analysis, rogue AP detection research, and lab-only deauthentication testing.
+- [`windows-ad`](../skills/windows-ad/) — Authorized Active Directory and Windows identity attacks: Kerberos abuse, AD CS escalation, BloodHound path analysis, NTLM relay, and domain privilege-escalation research.
+- [`windows-hardening`](../skills/windows-hardening/) — Harden Windows servers per security baselines and CIS benchmarks. Configure Group Policy, Windows Defender, and security features. Use when securing Windows Server environments.
+- [`windows-privilege-escalation`](../skills/windows-privilege-escalation/) — Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements.
+- [`wireshark-analysis`](../skills/wireshark-analysis/) — Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting.
+- [`wordpress-penetration-testing`](../skills/wordpress-penetration-testing/) — Assess WordPress installations for common vulnerabilities and WordPress 7.0 attack surfaces.
+- [`xss-html-injection`](../skills/xss-html-injection/) — Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and credential theft, and validate input sanitization and output encoding mechanisms.
+- [`yes-md`](../skills/yes-md/) — 6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.
+- [`zero-trust`](../skills/zero-trust/) — Implement zero-trust network architecture. Configure identity-based access, micro-segmentation, and continuous verification. Use when implementing modern security architectures.
+- [`zeroize-audit`](../skills/zeroize-audit/) — Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.

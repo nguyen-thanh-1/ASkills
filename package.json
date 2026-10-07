@@ -1,0 +1,12 @@
+{
+  "name": "all-skills-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A normalized, source-attributed catalog of reusable agent skills.",
+  "scripts": {
+    "catalog": "python tools/repo_skills.py build",
+    "validate": "python tools/repo_skills.py validate",
+    "sync:imports": "python tools/repo_skills.py sync-imports",
+    "check": "python tools/repo_skills.py all"
+  }
+}

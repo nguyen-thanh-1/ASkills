@@ -1,0 +1,185 @@
+version: 1
+fallback: other
+domains:
+  ai-agents:
+    title: AI, ML & Agents
+    description: AI engineering, model workflows, agents, orchestration, memory, prompts, and evaluation.
+    aliases:
+      - ai
+      - ai-agents
+      - ai-ml
+      - ai-research
+      - ai-testing
+      - agent-behavior
+      - agent-evaluation
+      - agent-orchestration
+      - agent-squad
+      - agent-tooling
+      - memory
+      - prompt-engineering
+      - voice-agents
+      - context-optimization
+  software-development:
+    title: Software Development
+    description: Programming, architecture, APIs, frontend, backend, testing, debugging, and code quality.
+    aliases:
+      - architecture
+      - backend
+      - code
+      - code-quality
+      - coding
+      - core-dev
+      - debugging
+      - developer-tools
+      - development
+      - development-and-testing
+      - engineering
+      - framework
+      - front-end
+      - frontend
+      - fullstack
+      - granular-workflow-bundle
+      - quality
+      - super-code
+      - test-automation
+      - testing
+      - tool-quality
+      - web-development
+  cloud-devops:
+    title: Cloud, DevOps & Reliability
+    description: Cloud platforms, infrastructure, CI/CD, deployment, observability, operations, and reliability.
+    aliases:
+      - cloud
+      - devops
+      - ml-ops
+      - operations
+      - reliability
+  data-analytics:
+    title: Data, Databases & Analytics
+    description: Data engineering, databases, analytics, data science, and reporting workflows.
+    aliases:
+      - analysis
+      - analytics
+      - data
+      - data-ai
+      - data-engineering
+      - data-science
+      - database
+      - database-processing
+      - databases
+  security:
+    title: Security, Compliance & Reverse Engineering
+    description: Defensive security, compliance, authorized testing, forensics, and reverse engineering.
+    aliases:
+      - pentest-tools
+      - reverse-engineering
+      - security
+  product-operations:
+    title: Product, Projects & Operations
+    description: Product management, project delivery, planning, operational systems, and team execution.
+    aliases:
+      - planning
+      - product
+      - product-management
+      - project-management
+  business-finance-legal:
+    title: Business, Finance & Legal
+    description: Business strategy, consulting, finance, accounting, legal, ecommerce, and commercial operations.
+    aliases:
+      - business
+      - business-strategy
+      - consulting
+      - ecommerce
+      - finance
+      - legal
+  marketing-sales:
+    title: Marketing, Sales & SEO
+    description: Growth, positioning, acquisition, conversion, sales, campaigns, and search optimization.
+    aliases:
+      - growth
+      - marketing
+      - seo
+  content-media:
+    title: Content, Writing & Media
+    description: Writing, editorial work, audio, video, content production, and media processing.
+    aliases:
+      - content
+      - content-writing
+      - media
+      - media-processing
+      - video
+      - writing
+  design-creative:
+    title: Design & Creative
+    description: Product design, visual systems, graphics, branding, creative direction, and UI craft.
+    aliases:
+      - creative
+      - design
+      - design-it
+      - graphics-processing
+  documents-office:
+    title: Documents & Office
+    description: Documents, PDFs, presentations, spreadsheets, office suites, and output verification.
+    aliases:
+      - document-processing
+      - document-verification
+      - office-productivity
+      - presentation-processing
+      - spreadsheet-processing
+  automation-integrations:
+    title: Automation & Integrations
+    description: Workflow automation, browser automation, APIs, MCP, connectors, and tool integration.
+    aliases:
+      - agent-tool-builder
+      - api-integration
+      - automation
+      - browser-automation
+      - mcp
+      - orchestration
+      - tools
+  productivity-collaboration:
+    title: Productivity, Collaboration & Knowledge
+    description: Personal productivity, collaboration, knowledge management, and reusable work routines.
+    aliases:
+      - collaboration
+      - knowledge-management
+      - productivity
+      - workflow
+      - workflow-bundle
+  research-education:
+    title: Research, Education & Science
+    description: Research, education, science, health, learning, travel, and personal development.
+    aliases:
+      - education
+      - health
+      - personal-development
+      - research
+      - science
+      - travel
+  games-interactive:
+    title: Games & Interactive Experiences
+    description: Game development, interactive experiences, simulations, and game-oriented workflows.
+    aliases:
+      - game-development
+      - monopoly
+  blockchain:
+    title: Blockchain & Web3
+    description: Blockchain, smart contracts, wallets, and decentralized systems.
+    aliases:
+      - blockchain
+  meta-personas:
+    title: Meta Skills & Personas
+    description: Skill authoring, reasoning patterns, personas, agent behavior, and repository-level utilities.
+    aliases:
+      - agent-persona
+      - andruia
+      - general
+      - leiloeiro
+      - meta
+      - reasoning
+      - skill-authoring
+      - uncategorized
+  other:
+    title: Other
+    description: Skills awaiting a more specific taxonomy assignment.
+    aliases: []

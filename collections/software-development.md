@@ -1,0 +1,692 @@
+# Software Development
+
+Programming, architecture, APIs, frontend, backend, testing, debugging, and code quality.
+
+Skills: **634**
+
+- [`ab-testing`](../skills/ab-testing/) — When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.
+- [`accesslint-audit`](../skills/accesslint-audit/) — Find and fix WCAG 2.2 accessibility issues. Two modes — report (sweep a codebase or page, produce a prioritized written report, no edits) and fix (audit→edit→verify loop on a target). Prefers direct-CDP live-DOM auditing; falls back to a browser-MCP composition or HTML-string audits.
+- [`agent-harness-fault-injection`](../skills/agent-harness-fault-injection/) — Use when an agent workflow needs deterministic recovery evidence for sandbox, MCP/tool, worker, checkpoint, memory, or orchestration failures.
+- [`agent-qa-authoring`](../skills/agent-qa-authoring/) — Create, edit, validate, and run Agent QA tests, suites, and hooks through MCP or CLI while preserving canonical IDs and schema contracts.
+- [`agent-qa-debug-fix`](../skills/agent-qa-debug-fix/) — Debug, patch, and verify failed Agent QA runs from MCP evidence, artifacts, logs, and local code without hiding product or infrastructure defects.
+- [`agent-qa-result-triage`](../skills/agent-qa-result-triage/) — Triage failed Agent QA runs with MCP evidence, artifacts, logs, fixed failure categories, confidence, and actionable next steps.
+- [`agents-generator`](../skills/agents-generator/) — Generate project-specific AGENTS.md and companion rules by analyzing a codebase. Supports full, minimal, update, and dry-run modes with package-manager detection, monorepos, backups, managed blocks, confidence scoring, and command validation.
+- [`agents-md`](../skills/agents-md/) — Create, revise, or audit AGENTS.md files from repository evidence, verified commands, and correctly scoped instructions without overwriting maintainer intent.
+- [`agenttrace-session-audit`](../skills/agenttrace-session-audit/) — Audit local AI coding-agent sessions with agenttrace for cost, tool failures, latency, anomalies, health, diffs, and CI gates.
+- [`ai-agent-development`](../skills/ai-agent-development/) — AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.
+- [`ai-agent-evaluation-benchmarking`](../skills/ai-agent-evaluation-benchmarking/) — Autonomous AI agent benchmark evaluation register: task completion rates, planning accuracy, tool invocation precision, and cost benchmarks.
+- [`ai-agent-tool-routing`](../skills/ai-agent-tool-routing/) — Autonomous AI agent tool router register: schema registration, runtime parameter coercion, idempotency keys, and error recovery policies.
+- [`ai-code-generation-guardrails`](../skills/ai-code-generation-guardrails/) — Autonomous AI code generation safety guardrail register: static AST analysis, forbidden import filters, and zero-day vulnerability checks.
+- [`ai-prompt-regression-testing`](../skills/ai-prompt-regression-testing/) — Prompt engineering regression test matrix register: baseline outputs, semantic drift thresholds, judge evaluations, and golden dataset.
+- [`andrej-karpathy`](../skills/andrej-karpathy/) — Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
+- [`android-ui-journey-testing`](../skills/android-ui-journey-testing/) — XML-specified Android UI journey testing, interactive step execution, assertion verification, and JSON outcome reporting.
+- [`angular`](../skills/angular/) — Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
+- [`angular-best-practices`](../skills/angular-best-practices/) — Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency.
+- [`angular-migration`](../skills/angular-migration/) — Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.
+- [`angular-state-management`](../skills/angular-state-management/) — Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns.
+- [`angular-ui-patterns`](../skills/angular-ui-patterns/) — Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component states.
+- [`animejs-animation`](../skills/animejs-animation/) — Advanced JavaScript animation library skill for creating complex, high-performance web animations.
+- [`anti-slop-design`](../skills/anti-slop-design/) — Autonomous Principal Design Technologist. Cures vibe-coded software from AI frontend slop using curated token archetypes and 7-axis quality gating.
+- [`anti-ui-slop`](../skills/anti-ui-slop/) — Stop coding agents from shipping generic UI. Extend the product's design system, use UIZZE evidence only when useful, cover required states, and inspect the rendered result.
+- [`api-analyzer`](../skills/api-analyzer/) — Validates whether an API request is correct based on provided inputs (method, URL, headers, body, auth, query params).
+- [`api-and-interface-design`](../skills/api-and-interface-design/) — Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.
+- [`api-design-principles`](../skills/api-design-principles/) — Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.
+- [`api-designer`](../skills/api-designer/) — Generates complete, production-ready REST API endpoint specifications for any system or domain the user describes.
+- [`api-documentation`](../skills/api-documentation/) — API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.
+- [`api-documentation-generator`](../skills/api-documentation-generator/) — Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices
+- [`api-documenter`](../skills/api-documenter/) — Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.
+- [`api-endpoint-builder`](../skills/api-endpoint-builder/) — Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability.
+- [`api-fuzzing-bug-bounty`](../skills/api-fuzzing-bug-bounty/) — Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements. Covers vulnerability discovery, authentication bypass, IDOR exploitation, and API-specific attack vectors.
+- [`api-integration`](../skills/api-integration/) — Designs event-driven architectures, webhook systems, API chaining flows, ETL pipelines, and integration patterns between services.
+- [`api-integration-architect`](../skills/api-integration-architect/) — Design, implement, debug, and optimize API integrations with expert-level patterns for REST, GraphQL, webhooks, and authentication flows.
+- [`api-onboarding`](../skills/api-onboarding/) — Reduce time-to-first-API-call (TTFAC) by optimizing every step of the developer onboarding journey. This skill covers authentication simplification, sandbox environments, interactive documentation, and identifying and eliminating common failure points.
+- [`api-patterns`](../skills/api-patterns/) — API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.
+- [`api-rate-limit-handler`](../skills/api-rate-limit-handler/) — Implement bounded, idempotency-aware API throttling, backoff, and retry handling for 429 and transient 5xx responses.
+- [`api-sdk-generator`](../skills/api-sdk-generator/) — Generates client SDK code, API wrapper libraries, request/response models, and language-specific usage patterns for any REST API.
+- [`api-security`](../skills/api-security/) — Authorized security assessment of REST, GraphQL, WebSocket, and SOAP APIs: discovery, authentication and authorization flaws (BOLA/IDOR, JWT/OAuth), rate-limit testing, and a structured multi-phase methodology.
+- [`api-security-best-practices`](../skills/api-security-best-practices/) — Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities
+- [`api-security-testing`](../skills/api-security-testing/) — API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.
+- [`api-testing-observability-api-mock`](../skills/api-testing-observability-api-mock/) — You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development.
+- [`appdeploy`](../skills/appdeploy/) — Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl.
+- [`applicationinsights-web-ts`](../skills/applicationinsights-web-ts/) — Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web).
+- [`architect-review`](../skills/architect-review/) — Master software architect specializing in modern architecture
+- [`architecture`](../skills/architecture/) — Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.
+- [`architecture-decision-records`](../skills/architecture-decision-records/) — Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.
+- [`architecture-patterns`](../skills/architecture-patterns/) — Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.
+- [`architecture-review`](../skills/architecture-review/) — Review repository architecture using Ontoly Software Graph and MCP capabilities. Use when asked to explain architecture, module boundaries, package topology, service ownership, or architectural risk.
+- [`arm-cortex-expert`](../skills/arm-cortex-expert/) — Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
+- [`ask-copilot`](../skills/ask-copilot/) — Use GitHub Copilot CLI in non-interactive mode to ask questions, review code, or generate snippets without manual interaction.
+- [`aspnet-core`](../skills/aspnet-core/) — Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.
+- [`astro`](../skills/astro/) — Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.
+- [`async-python-patterns`](../skills/async-python-patterns/) — Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.
+- [`atlas-contract`](../skills/atlas-contract/) — Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change, tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation Notices, Phase Checks, Final Audits. Skip for Q&A or trivial edits.
+- [`audit-agent-run-evidence`](../skills/audit-agent-run-evidence/) — Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success.
+- [`avalonia-layout-zafiro`](../skills/avalonia-layout-zafiro/) — Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.
+- [`avalonia-viewmodels-zafiro`](../skills/avalonia-viewmodels-zafiro/) — Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.
+- [`avalonia-zafiro-development`](../skills/avalonia-zafiro-development/) — Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.
+- [`awt-e2e-testing`](../skills/awt-e2e-testing/) — AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g
+- [`ax-extract-workflow`](../skills/ax-extract-workflow/) — Reconstruct workflow behind a past coding-agent artifact using local ax sessions/commits/skills/tool traces. Use when asked how X was built.
+- [`babysit-pr`](../skills/babysit-pr/) — Babysit a pull request through its bot review rounds: verify, fix, reply, resolve. Use for any babysit or watch-the-PR ask.
+- [`backend-architect`](../skills/backend-architect/) — Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
+- [`backend-dev-guidelines`](../skills/backend-dev-guidelines/) — You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access.
+- [`backend-development-feature-development`](../skills/backend-development-feature-development/) — Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
+- [`backend-security-coder`](../skills/backend-security-coder/) — Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
+- [`bash`](../skills/super-code/bash/) — Language-specific super-code guidelines for bash.
+- [`bash-defensive-patterns`](../skills/bash-defensive-patterns/) — Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
+- [`bash-linux`](../skills/bash-linux/) — Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.
+- [`bash-pro`](../skills/bash-pro/) — Master of defensive Bash scripting for production automation, CI/CD
+pipelines, and system utilities. Expert in safe, portable, and testable shell
+scripts.
+- [`bash-scripting`](../skills/bash-scripting/) — Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
+- [`bats-testing-patterns`](../skills/bats-testing-patterns/) — Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.
+- [`bazel-build-optimization`](../skills/bazel-build-optimization/) — Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
+- [`bilig-workpaper`](../skills/bilig-workpaper/) — Use formula-backed WorkPaper JSON and MCP tools for agent spreadsheet tasks without driving Excel or a browser UI.
+- [`boost-asio-pro`](../skills/boost-asio-pro/) — Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback styles.
+- [`break-ai-fix-loops`](../skills/break-ai-fix-loops/) — Stop ineffective AI coding repair loops with stable failure fingerprints, a three-attempt budget, real-path proof, negative controls, and tested rollback.
+- [`brooks-audit`](../skills/brooks-audit/) — Architecture audit that maps module dependencies, checks layering integrity, and flags structural decay across a codebase, drawing on twelve classic engineering books.
+- [`brooks-debt`](../skills/brooks-debt/) — Tech debt assessment that identifies, classifies, and prioritizes maintainability problems — helping teams build a refactoring roadmap — drawing on twelve classic engineering books.
+- [`brooks-harness`](../skills/brooks-harness/) — Maintenance orchestrator for the brooks-lint plugin itself.
+- [`brooks-lint`](../skills/brooks-lint/) — AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.
+- [`brooks-review`](../skills/brooks-review/) — PR code review that surfaces decay risks, design smells, and maintainability issues with concrete Symptom → Source → Consequence → Remedy findings, drawing on twelve classic engineering books.
+- [`brooks-sweep`](../skills/brooks-sweep/) — Full-sweep mode: runs a unified analysis across all quality dimensions — code decay, architecture, tech debt, and test quality — then applies fixes directly to the codebase. Safe changes are auto-applied; risky changes are confirmed before execution.
+- [`brooks-test`](../skills/brooks-test/) — Review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.
+- [`browser-automation`](../skills/browser-automation/) — Build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification.
+- [`browser-extension-builder`](../skills/browser-extension-builder/) — Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architecture, manifest v3, content scripts, popup UIs, monetization strategies, and Chrome Web Store publishing.
+- [`browser-extension-launch`](../skills/browser-extension-launch/) — Builds, tests, packages, and prepares Chrome extensions for store launch from a plain-language idea; use for new extensions, fixes, releases, and submission recovery.
+- [`browser-extension-reverse`](../skills/browser-extension-reverse/) — Authorized reverse engineering of Chrome/Firefox extensions: manifest analysis, background workers, content scripts, and extension-based credential or data-exposure research.
+- [`browser-testing-with-devtools`](../skills/browser-testing-with-devtools/) — Test browser apps with Chrome DevTools MCP by inspecting live DOM, console logs, network traffic, screenshots, accessibility, and performance traces.
+- [`bug-hunt-swarm`](../skills/bug-hunt-swarm/) — Parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures.
+- [`bug-hunter`](../skills/bug-hunter/) — Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.
+- [`bugs-are-annoying`](../skills/bugs-are-annoying/) — Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
+- [`bullmq-specialist`](../skills/bullmq-specialist/) — BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications.
+- [`bun-development`](../skills/bun-development/) — Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun).
+- [`busybox-on-windows`](../skills/busybox-on-windows/) — How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.
+- [`c`](../skills/super-code/c/) — Language-specific super-code guidelines for c.
+- [`c-pro`](../skills/c-pro/) — Write efficient C code with proper memory management, pointer
+- [`c4-architecture-c4-architecture`](../skills/c4-architecture-c4-architecture/) — Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.
+- [`c4-code`](../skills/c4-code/) — Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.
+- [`c4-component`](../skills/c4-component/) — Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.
+- [`c4-container`](../skills/c4-container/) — Expert C4 Container-level documentation specialist.
+- [`c4-context`](../skills/c4-context/) — Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.
+- [`chat-widget`](../skills/chat-widget/) — Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support.
+- [`chatexport-need-miner`](../skills/chatexport-need-miner/) — Mines offline Telegram Desktop chat exports (result.json) for unmet market needs and product opportunities using chunked streaming and verbatim quote grounding. Trigger phrases: mine chat export, telegram result.json, find unmet needs, analyze telegram chat.
+- [`chrome-extension-developer`](../skills/chrome-extension-developer/) — Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.
+- [`ckw-design`](../skills/ckw-design/) — Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says "make this look better", "fix the spacing/layout", or mentions styling, color, type, or polish.
+- [`clarvia-aeo-check`](../skills/clarvia-aeo-check/) — Score any MCP server, API, or CLI for agent-readiness using Clarvia AEO (Agent Experience Optimization). Search 15,400+ indexed tools before adding them to your workflow.
+- [`clean-code`](../skills/clean-code/) — This skill embodies the principles of "Clean Code" by Robert C. Martin (Uncle Bob). Use it to transform "code that works" into "code that is clean."
+- [`clean-code-guard`](../skills/clean-code-guard/) — Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks.
+- [`cli-creator`](../skills/cli-creator/) — Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.
+- [`cloudflare-workers-expert`](../skills/cloudflare-workers-expert/) — Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage.
+- [`cmux`](../skills/cmux/) — Control cmux workspaces, panes, surfaces, and agent sessions safely from macOS terminal workflows.
+- [`code-audit`](../skills/code-audit/) — Authorized source-code security review and SAST workflows: Semgrep and CodeQL pattern hunting, dangerous API identification, and fix verification.
+- [`code-documentation-code-explain`](../skills/code-documentation-code-explain/) — You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels.
+- [`code-documentation-doc-generate`](../skills/code-documentation-doc-generate/) — You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.
+- [`code-polish`](../skills/code-polish/) — Rewrites unprofessional code comments into clear ones and performs non-semantic cleanup. Use to professionalize code without altering logic or behavior.
+- [`code-refactoring-context-restore`](../skills/code-refactoring-context-restore/) — Use when working with code refactoring context restore
+- [`code-refactoring-refactor-clean`](../skills/code-refactoring-refactor-clean/) — You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
+- [`code-refactoring-tech-debt`](../skills/code-refactoring-tech-debt/) — Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.
+- [`code-review-ai-ai-review`](../skills/code-review-ai-ai-review/) — You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C
+- [`code-review-and-quality`](../skills/code-review-and-quality/) — Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
+- [`code-review-checklist`](../skills/code-review-checklist/) — Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability
+- [`code-review-excellence`](../skills/code-review-excellence/) — Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.
+- [`code-review-sensei`](../skills/code-review-sensei/) — Expert code reviewer that catches bugs, security issues, performance problems, and design flaws with actionable fix suggestions.
+- [`code-reviewer`](../skills/code-reviewer/) — Elite code review expert specializing in modern AI-powered code
+- [`code-showcase-core-components`](../skills/code-showcase-core-components/) — Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+- [`code-showcase-react-ui-patterns`](../skills/code-showcase-react-ui-patterns/) — Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- [`code-showcase-systematic-debugging`](../skills/code-showcase-systematic-debugging/) — Four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.
+- [`code-showcase-testing-patterns`](../skills/code-showcase-testing-patterns/) — Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
+- [`code-simplification`](../skills/code-simplification/) — Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.
+- [`code-simplifier`](../skills/code-simplifier/) — Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specific best practices.
+- [`codebase-audit-pre-push`](../skills/codebase-audit-pre-push/) — Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.
+- [`codebase-cleanup-deps-audit`](../skills/codebase-cleanup-deps-audit/) — You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+- [`codebase-cleanup-refactor-clean`](../skills/codebase-cleanup-refactor-clean/) — You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.
+- [`codebase-cleanup-tech-debt`](../skills/codebase-cleanup-tech-debt/) — Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.
+- [`codebase-design`](../skills/codebase-design/) — Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.
+- [`codebase-onboarding`](../skills/codebase-onboarding/) — Onboard a developer to a repository using Ontoly graph summaries. Use when asked to explain a new codebase, identify entrypoints, map packages, or suggest first files to inspect.
+- [`codebase-to-wordpress-converter`](../skills/codebase-to-wordpress-converter/) — Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.
+- [`codex-review`](../skills/codex-review/) — Professional code review with auto CHANGELOG generation, integrated with Codex AI. Use when you want professional code review before commits, you need automatic CHANGELOG generation, or reviewing large-scale refactoring.
+- [`cohesivity`](../skills/cohesivity/) — Provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend.
+- [`comfyui-gateway`](../skills/comfyui-gateway/) — REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
+- [`complexity-cuts`](../skills/complexity-cuts/) — Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.
+- [`composition-patterns`](../skills/composition-patterns/) — Use when working with composition-patterns tasks or workflows
+- [`comprehensive-review-full-review`](../skills/comprehensive-review-full-review/) — Use when working with comprehensive review full review
+- [`comprehensive-review-pr-enhance`](../skills/comprehensive-review-pr-enhance/) — Generate structured PR descriptions from diffs, add review checklists, risk assessments, and test coverage summaries. Use when the user says "write a PR description", "improve this PR", "summarize my changes", "PR review", "pull request", or asks to document a diff for reviewers.
+- [`constraint-driven-development`](../skills/constraint-driven-development/) — Write the project quality bar as enforced CONSTRAINTS.md so agents stop quietly lowering it: coverage, performance, accessibility thresholds watched on every diff.
+- [`convex`](../skills/convex/) — Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.
+- [`copilot-sdk`](../skills/copilot-sdk/) — Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
+- [`core-components`](../skills/core-components/) — Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+- [`cpp`](../skills/super-code/cpp/) — Language-specific super-code guidelines for cpp.
+- [`cpp-pro`](../skills/cpp-pro/) — Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.
+- [`cqrs-implementation`](../skills/cqrs-implementation/) — Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems.
+- [`cross-chain-relayer-audit`](../skills/cross-chain-relayer-audit/) — Cross-chain relayer bridge audit register: message hash verifications, replay protection nonces, validator quorum, and withdrawal proofs.
+- [`cross-platform-contract-propagation-audit`](../skills/cross-platform-contract-propagation-audit/) — Use when auditing whether a field, enum, flag, or API contract propagates consistently across storage, services, clients, analytics, and tests.
+- [`csharp`](../skills/super-code/csharp/) — Language-specific super-code guidelines for csharp.
+- [`csharp-pro`](../skills/csharp-pro/) — Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
+- [`cucumber-skill`](../skills/cucumber-skill/) — Generates Cucumber BDD tests with Gherkin feature files and step definitions in Java, JavaScript, or Ruby. Use when user mentions "Cucumber", "Gherkin", "Feature/Scenario", "Given/When/Then", "BDD".
+- [`cypress-skill`](../skills/cypress-skill/) — Generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions "Cypress", "cy.visit", "cy.get", "cy.intercept".
+- [`dali-short-address-commissioner`](../skills/dali-short-address-commissioner/) — Commissions DALI and DALI-2 (IEC 62386) lighting buses: short-address assignment (0-63), 24-bit binary search collision resolution, groups, and DT8 color control. Trigger phrases: commission dali, dali short address, dali collision resolution, dali bus addressing, dali-2 setup.
+- [`dart`](../skills/super-code/dart/) — Language-specific super-code guidelines for dart.
+- [`dbos-golang`](../skills/dbos-golang/) — Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control.
+- [`dbos-python`](../skills/dbos-python/) — Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.
+- [`dbos-typescript`](../skills/dbos-typescript/) — Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control.
+- [`ddd-context-mapping`](../skills/ddd-context-mapping/) — Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.
+- [`ddd-strategic-design`](../skills/ddd-strategic-design/) — Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.
+- [`ddd-tactical-patterns`](../skills/ddd-tactical-patterns/) — Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.
+- [`debate-review`](../skills/debate-review/) — Two-model debate review of a GitHub PR, GitLab MR, Azure DevOps PR, or local working tree, posted as inline comments or printed. Use for any PR/MR review request, or a local review before a PR exists.
+- [`debugger`](../skills/debugger/) — Debugging specialist for errors, test failures, and unexpected
+behavior. Use proactively when encountering any issues.
+- [`debugging-and-error-recovery`](../skills/debugging-and-error-recovery/) — Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.
+- [`debugging-code`](../skills/debugging-code/) — Interactively debug source code — set breakpoints, step through execution line by line, inspect live variable state, evaluate expressions against the running program, and navigate the call stack to trace root causes.
+- [`debugging-strategies`](../skills/debugging-strategies/) — Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.
+- [`debugging-toolkit`](../skills/debugging-toolkit/) — Use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug)
+- [`debugging-toolkit-smart-debug`](../skills/debugging-toolkit-smart-debug/) — Use when working with debugging toolkit smart debug
+- [`defi-yield-strategy-allocator`](../skills/defi-yield-strategy-allocator/) — Multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.
+- [`dependency-analysis`](../skills/dependency-analysis/) — Analyze internal and package dependencies using Ontoly graph traversal. Use when asked which modules, packages, services, or files depend on each other.
+- [`dependency-upgrade`](../skills/dependency-upgrade/) — Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
+- [`design-it`](../skills/design-it/) — Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.
+- [`design-system`](../skills/design-system/) — Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems.
+- [`design-taste-frontend`](../skills/design-taste-frontend/) — Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.
+- [`design-ux`](../skills/design-ux/) — UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI "feels off", "sucks to use", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app.
+- [`devcontainer-setup`](../skills/devcontainer-setup/) — Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.
+- [`diagnose-android-overheating`](../skills/diagnose-android-overheating/) — Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates.
+- [`diagnosing-bugs`](../skills/diagnosing-bugs/) — Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.
+- [`discord-bot-architect`](../skills/discord-bot-architect/) — Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding.
+- [`distribute-skill-to-all-agents`](../skills/distribute-skill-to-all-agents/) — Distribute a skill across configured agent skill folders while respecting local symlink layouts.
+- [`django-access-review`](../skills/django-access-review/) — django-access-review
+- [`django-perf-review`](../skills/django-perf-review/) — Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems.
+- [`django-pro`](../skills/django-pro/) — Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.
+- [`docs-architect`](../skills/docs-architect/) — Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
+- [`domain-driven-design`](../skills/domain-driven-design/) — Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.
+- [`domain-modeling`](../skills/domain-modeling/) — Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.
+- [`dos-verify-done-claims`](../skills/dos-verify-done-claims/) — Before accepting an agent's 'done / shipped / fixed' claim, verify it against ground truth (git ancestry + the commit's own diff) using the DOS kernel's `dos verify` and `dos commit-audit` — never the agent's own narration.
+- [`dotnet-architect`](../skills/dotnet-architect/) — Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.
+- [`dotnet-backend`](../skills/dotnet-backend/) — Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
+- [`dotnet-backend-patterns`](../skills/dotnet-backend-patterns/) — Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
+- [`doubt-driven-development`](../skills/doubt-driven-development/) — Subjects every non-trivial decision to a fresh-context adversarial review before it stands.
+- [`dwarf-expert`](../skills/dwarf-expert/) — Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.
+- [`dx-optimizer`](../skills/dx-optimizer/) — Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
+- [`e2e-testing`](../skills/e2e-testing/) — End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration.
+- [`e2e-testing-patterns`](../skills/e2e-testing-patterns/) — Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.
+- [`ecl-harness-engineer`](../skills/ecl-harness-engineer/) — Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.
+- [`effective-agent-skills`](../skills/effective-agent-skills/) — Author and review high-quality agent skills with triggers, progressive disclosure, and safety notes.
+- [`electron-development`](../skills/electron-development/) — Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.
+- [`electron-drive-skill`](../skills/electron-drive-skill/) — Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-process code, read logs. Use to verify UI changes end to end.
+- [`elixir`](../skills/super-code/elixir/) — Language-specific super-code guidelines for elixir.
+- [`elixir-pro`](../skills/elixir-pro/) — Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.
+- [`emil-design-eng`](../skills/emil-design-eng/) — Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance.
+- [`enhance-prompt`](../skills/enhance-prompt/) — Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
+- [`environment-setup-guide`](../skills/environment-setup-guide/) — Guide developers through setting up development environments with proper tools, dependencies, and configurations
+- [`eol-resistor-calculator`](../skills/eol-resistor-calculator/) — Calculates and validates end-of-line (EOL, SEOL, DEOL, TEOL) resistor loops for intrusion alarm panels (Honeywell, DSC, Paradox, Bosch) with wire gauge drop and state tables. Trigger phrases: eol resistor, deol wiring, alarm zone resistor, calculate end of line, double eol tamper.
+- [`error-debugging-error-analysis`](../skills/error-debugging-error-analysis/) — You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.
+- [`error-debugging-error-trace`](../skills/error-debugging-error-trace/) — You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and resolve production issues.
+- [`error-debugging-multi-agent-review`](../skills/error-debugging-multi-agent-review/) — Use when working with error debugging multi agent review
+- [`error-detective`](../skills/error-detective/) — Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.
+- [`error-diagnostics-error-analysis`](../skills/error-diagnostics-error-analysis/) — You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.
+- [`error-diagnostics-error-trace`](../skills/error-diagnostics-error-trace/) — You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,
+- [`error-diagnostics-smart-debug`](../skills/error-diagnostics-smart-debug/) — Use when working with error diagnostics smart debug
+- [`error-handling-patterns`](../skills/error-handling-patterns/) — Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.
+- [`esl-price-sync`](../skills/esl-price-sync/) — Synchronizes retail prices between ERP/POS systems and Electronic Shelf Labels (SES-imagotag, ZKONG, Pricer, Hanshow, SOLUM) with delta watermarking, idempotency, and battery modeling. Trigger phrases: esl price sync, electronic shelf labels, zkong sync, ses imagotag price, ghost pricing audit.
+- [`event-sourcing-architect`](../skills/event-sourcing-architect/) — Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries.
+- [`event-store-design`](../skills/event-store-design/) — Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.
+- [`faf-expert`](../skills/faf-expert/) — Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.
+- [`fastapi-pro`](../skills/fastapi-pro/) — Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
+- [`fastapi-router-py`](../skills/fastapi-router-py/) — Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.
+- [`fastapi-templates`](../skills/fastapi-templates/) — Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.
+- [`find-bugs`](../skills/find-bugs/) — Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
+- [`five-axis-code-review`](../skills/five-axis-code-review/) — Five-axis code review checklist (correctness, security, readability, performance, test coverage) producing actionable comments instead of style nitpicks. Use when the user asks to review code, a diff, or a pull request.
+- [`fix-review`](../skills/fix-review/) — Verify fix commits address audit findings without new bugs
+- [`fixing-accessibility`](../skills/fixing-accessibility/) — Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
+- [`fixing-metadata`](../skills/fixing-metadata/) — Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives.
+- [`fixing-motion-performance`](../skills/fixing-motion-performance/) — Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
+- [`folder-specific-claude-and-agents-md`](../skills/folder-specific-claude-and-agents-md/) — Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.
+- [`formik-patterns`](../skills/formik-patterns/) — Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.
+- [`fp-async`](../skills/fp-async/) — Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
+- [`fp-backend`](../skills/fp-backend/) — Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
+- [`fp-data-transforms`](../skills/fp-data-transforms/) — Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
+- [`fp-either-ref`](../skills/fp-either-ref/) — Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
+- [`fp-errors`](../skills/fp-errors/) — Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
+- [`fp-option-ref`](../skills/fp-option-ref/) — Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
+- [`fp-pipe-ref`](../skills/fp-pipe-ref/) — Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.
+- [`fp-pragmatic`](../skills/fp-pragmatic/) — A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+- [`fp-react`](../skills/fp-react/) — Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
+- [`fp-refactor`](../skills/fp-refactor/) — Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
+- [`fp-taskeither-ref`](../skills/fp-taskeither-ref/) — Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.
+- [`fp-ts-errors`](../skills/fp-ts-errors/) — Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts.
+- [`fp-ts-pragmatic`](../skills/fp-ts-pragmatic/) — A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.
+- [`fp-ts-react`](../skills/fp-ts-react/) — Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.
+- [`fp-types-ref`](../skills/fp-types-ref/) — Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
+- [`framework-migration-code-migrate`](../skills/framework-migration-code-migrate/) — You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and
+- [`framework-migration-deps-upgrade`](../skills/framework-migration-deps-upgrade/) — You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa
+- [`framework-migration-legacy-modernize`](../skills/framework-migration-legacy-modernize/) — Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex
+- [`frontend-api-integration-patterns`](../skills/frontend-api-integration-patterns/) — Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management.
+- [`frontend-architecture`](../skills/frontend-architecture/) — A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, and clear component-promotion rules.
+- [`frontend-data-contracts`](../skills/frontend-data-contracts/) — A portable, framework-agnostic discipline for type safety at the network edge of any React or React Native app.
+- [`frontend-design`](../skills/frontend-design/) — Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
+- [`frontend-dev-guidelines`](../skills/frontend-dev-guidelines/) — You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data.
+- [`frontend-developer`](../skills/frontend-developer/) — Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.
+- [`frontend-lighthouse`](../skills/frontend-lighthouse/) — Add a portable Lighthouse CI gate for production frontend builds with Core Web Vitals budgets, category floors, median runs, and CI artifacts.
+- [`frontend-mobile-development-component-scaffold`](../skills/frontend-mobile-development-component-scaffold/) — You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s
+- [`frontend-mobile-security-xss-scan`](../skills/frontend-mobile-security-xss-scan/) — You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi
+- [`frontend-optimistic-mutations`](../skills/frontend-optimistic-mutations/) — A portable, framework-agnostic discipline for the write path of any React or React Native app using a query/cache layer.
+- [`frontend-seo`](../skills/frontend-seo/) — A portable, framework-agnostic SEO system for any React or React Native-for-web frontend.
+- [`frontend-slides-frontend-slides`](../skills/frontend-slides-frontend-slides/) — Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch.
+- [`frontend-ui-dark-ts`](../skills/frontend-ui-dark-ts/) — A modern dark-themed React UI system using Tailwind CSS and Framer Motion. Designed for dashboards, admin panels, and data-rich applications with glassmorphism effects and tasteful animations.
+- [`frontend-ui-engineering`](../skills/frontend-ui-engineering/) — Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
+- [`full-output-enforcement`](../skills/full-output-enforcement/) — Use when a task requires exhaustive unabridged output, complete files, or strict prevention of placeholders and skipped code.
+- [`gdb-cli`](../skills/gdb-cli/) — GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation
+- [`gh-address-comments`](../skills/gh-address-comments/) — Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.
+- [`gh-attach`](../skills/gh-attach/) — Upload and download GitHub user-attachments (screenshots, PDFs, zips, videos) from the terminal; use when asked to attach or embed a file in a PR, issue, or comment, or download an attachment URL.
+- [`gh-fix-ci`](../skills/gh-fix-ci/) — Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.
+- [`gh-image`](../skills/gh-image/) — Upload local images to GitHub and get canonical user-attachments embed URLs; use when asked to attach a screenshot to a PR, issue, or comment, or to embed before/after images in a README.
+- [`git-commit-message`](../skills/git-commit-message/) — Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.
+- [`github`](../skills/github/) — Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries.
+- [`global-chat-agent-discovery`](../skills/global-chat-agent-discovery/) — Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.
+- [`go`](../skills/super-code/go/) — Language-specific super-code guidelines for go.
+- [`go-concurrency-patterns`](../skills/go-concurrency-patterns/) — Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.
+- [`go-in-depth`](../skills/go-in-depth/) — Go in depth harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.
+- [`go-playwright`](../skills/go-playwright/) — Expert capability for robust, stealthy, and efficient browser automation using Playwright Go.
+- [`go-rod-master`](../skills/go-rod-master/) — Comprehensive guide for browser automation and web scraping with go-rod (Chrome DevTools Protocol) including stealth anti-bot-detection patterns.
+- [`go-rust-reverse`](../skills/go-rust-reverse/) — Reverse engineer stripped Go and Rust binaries: runtime recognition, pclntab/module metadata recovery, panic-string analysis, and idiomatic decompilation strategies.
+- [`golang-pro`](../skills/golang-pro/) — Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.
+- [`gpt-taste`](../skills/gpt-taste/) — Use when generating elite GSAP-heavy frontend pages with strict AIDA structure, wide hero typography, and gapless bento grids.
+- [`graceful-shutdown`](../skills/graceful-shutdown/) — Implement graceful shutdown for servers and workers: drain connections, finish in-flight work, release resources, and exit cleanly on SIGTERM/SIGINT.
+- [`graphql`](../skills/graphql/) — GraphQL gives clients exactly the data they need - no more, no less. One endpoint, typed schema, introspection. But the flexibility that makes it powerful also makes it dangerous. Without proper controls, clients can craft queries that bring down your server.
+- [`graphql-architect`](../skills/graphql-architect/) — Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.
+- [`graphql-schema`](../skills/graphql-schema/) — GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
+- [`grpc-golang`](../skills/grpc-golang/) — Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.
+- [`haskell-pro`](../skills/haskell-pro/) — Expert Haskell engineer specializing in advanced type systems, pure
+- [`hig-components-content`](../skills/hig-components-content/) — Apple Human Interface Guidelines for content display components.
+- [`hig-components-controls`](../skills/hig-components-controls/) — Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
+- [`hig-components-dialogs`](../skills/hig-components-dialogs/) — Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.
+- [`hig-components-layout`](../skills/hig-components-layout/) — Apple Human Interface Guidelines for layout and navigation components.
+- [`hig-components-menus`](../skills/hig-components-menus/) — Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
+- [`hig-components-search`](../skills/hig-components-search/) — Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
+- [`hig-components-status`](../skills/hig-components-status/) — Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.
+- [`hig-components-system`](../skills/hig-components-system/) — Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.
+- [`hig-foundations`](../skills/hig-foundations/) — Apple Human Interface Guidelines design foundations.
+- [`hig-inputs`](../skills/hig-inputs/) — Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
+- [`hig-patterns`](../skills/hig-patterns/) — Apple Human Interface Guidelines interaction and UX patterns.
+- [`hig-platforms`](../skills/hig-platforms/) — Apple Human Interface Guidelines for platform-specific design.
+- [`hig-project-context`](../skills/hig-project-context/) — Create or update a shared Apple design context document that other HIG skills use to tailor guidance.
+- [`hig-technologies`](../skills/hig-technologies/) — Check for .claude/apple-design-context.md before asking questions. Use existing context and only ask for information not already covered.
+- [`high-end-visual-design`](../skills/high-end-visual-design/) — Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+- [`hono`](../skills/hono/) — Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
+- [`huggingface-community-evals`](../skills/huggingface-community-evals/) — Curated upstream guidance for Huggingface Community Evals; use when the workflow matches the user goal.
+- [`hyperexecute-skill`](../skills/hyperexecute-skill/) — Operates HyperExecute end-to-end for TestMu AI/LambdaTest cloud test execution: analyze projects, create YAML, validate locally, run CLI jobs, debug failures, and wire CI.
+- [`i18n-localization`](../skills/i18n-localization/) — Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
+- [`iconsax-library`](../skills/iconsax-library/) — Extensive icon library and AI-driven icon generation skill for premium UI/UX design.
+- [`implement`](../skills/implement/) — Implement a piece of work based on a PRD or set of issues.
+- [`improve-codebase-architecture`](../skills/improve-codebase-architecture/) — Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
+- [`incremental-implementation`](../skills/incremental-implementation/) — Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
+- [`industrial-brutalist-ui`](../skills/industrial-brutalist-ui/) — Use when creating raw industrial or tactical telemetry UIs with rigid grids, stark typography, CRT effects, and high-density data.
+- [`instructree`](../skills/instructree/) — Map, explain, and lint repository-scoped coding-agent instructions before changing code.
+- [`interactive-portfolio`](../skills/interactive-portfolio/) — Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities.
+- [`invariant-guard`](../skills/invariant-guard/) — Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.
+- [`java`](../skills/super-code/java/) — Language-specific super-code guidelines for java.
+- [`java-pro`](../skills/java-pro/) — Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
+- [`javascript-mastery`](../skills/javascript-mastery/) — 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).
+- [`javascript-pro`](../skills/javascript-pro/) — Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
+- [`javascript-testing-patterns`](../skills/javascript-testing-patterns/) — Comprehensive guide for implementing robust testing strategies in JavaScript/TypeScript applications using modern testing frameworks and best practices.
+- [`javascript-typescript-typescript-scaffold`](../skills/javascript-typescript-typescript-scaffold/) — You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N
+- [`jest-skill`](../skills/jest-skill/) — Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions "Jest", "describe/it/expect", "jest.mock", "toMatchSnapshot".
+- [`jq`](../skills/jq/) — Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows.
+- [`julia-pro`](../skills/julia-pro/) — Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.
+- [`junit-5-skill`](../skills/junit-5-skill/) — Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions "JUnit", "JUnit 5", "@Test", "assertEquals", "Assertions", "Java unit test".
+- [`junta-leiloeiros`](../skills/junta-leiloeiros/) — Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON.
+- [`k6-load-testing`](../skills/k6-load-testing/) — Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic load scenarios, analyze results, and integrate with CI/CD.
+- [`kaizen`](../skills/kaizen/) — Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.
+- [`kotlin`](../skills/super-code/kotlin/) — Language-specific super-code guidelines for kotlin.
+- [`kotlin-coroutines-expert`](../skills/kotlin-coroutines-expert/) — Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
+- [`kubernetes-deployment`](../skills/kubernetes-deployment/) — Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+- [`lambdatest-agent-skills`](../skills/lambdatest-agent-skills/) — Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in 15+ languages.
+- [`landing-page-generator`](../skills/landing-page-generator/) — Generates high-converting Next.js/React landing pages with Tailwind CSS. Uses PAS, AIDA, and BAB frameworks for optimized copy/components (Heroes, Features, Pricing). Focuses on Core Web Vitals/SEO.
+- [`laravel-development-workflow`](../skills/laravel-development-workflow/) — Build and fix existing Laravel applications through root-cause diagnosis, repository-native implementation, regression coverage, and risk-based verification.
+- [`laravel-expert`](../skills/laravel-expert/) — Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).
+- [`legacy-modernizer`](../skills/legacy-modernizer/) — Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility.
+- [`lemmaly`](../skills/lemmaly/) — Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.
+- [`lintlang-audit`](../skills/lintlang-audit/) — Audit named agent instructions, tool definitions, and supported Python prompts with local LintLang checks; return finding codes and locations without changing files.
+- [`linux-shell-scripting`](../skills/linux-shell-scripting/) — Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.
+- [`linux-troubleshooting`](../skills/linux-troubleshooting/) — Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
+- [`logic-diff`](../skills/logic-diff/) — Compare two code versions for semantic equivalence via semi-formal tracing of both versions side-by-side.
+- [`logic-explain`](../skills/logic-explain/) — Explain what a specific piece of code actually does for a given input by producing a step-by-step execution trace (interprocedural, with name resolution and type transitions).
+- [`logic-fix-all`](../skills/logic-fix-all/) — Autonomous repository-wide audit-and-fix pipeline: health → review → locate/explain → fix → diff-verify → iterate until clean. Starts with a mandatory consent prompt (token-intensive); after consent runs hands-free.
+- [`logic-lens`](../skills/logic-lens/) — AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.
+- [`logic-locate`](../skills/logic-locate/) — Locate the root cause of a CONFIRMED failure via backward-then-forward semi-formal tracing.
+- [`logic-review`](../skills/logic-review/) — Find logic bugs in a single file or function via semi-formal execution tracing (Premises → Trace → Divergence → Trigger → Remedy).
+- [`lore`](../skills/lore/) — Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query.
+- [`lovable-cleanup`](../skills/lovable-cleanup/) — Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours.
+- [`macos-menubar-tuist-app`](../skills/macos-menubar-tuist-app/) — Build, refactor, or review SwiftUI macOS menubar apps that use Tuist.
+- [`macos-spm-app-packaging`](../skills/macos-spm-app-packaging/) — Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects.
+- [`magic-ui-generator`](../skills/magic-ui-generator/) — Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.
+- [`mailtrap-testing-with-sandbox`](../skills/mailtrap-testing-with-sandbox/) — Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.
+- [`makepad-2-0-animation`](../skills/makepad-2-0-animation/) — Makepad 2.0 guidance for animation; use when building or debugging Makepad UI code.
+- [`makepad-2-0-dsl`](../skills/makepad-2-0-dsl/) — Makepad 2.0 guidance for dsl; use when building or debugging Makepad UI code.
+- [`makepad-2-0-events`](../skills/makepad-2-0-events/) — Makepad 2.0 guidance for events; use when building or debugging Makepad UI code.
+- [`makepad-2-0-layout`](../skills/makepad-2-0-layout/) — Makepad 2.0 guidance for layout; use when building or debugging Makepad UI code.
+- [`makepad-2-0-widgets`](../skills/makepad-2-0-widgets/) — Makepad 2.0 guidance for widgets; use when building or debugging Makepad UI code.
+- [`makepad-animation`](../skills/makepad-animation/) — CRITICAL: Use for Makepad animation system. Triggers on:
+makepad animation, makepad animator, makepad hover, makepad state,
+makepad transition, "from: { all: Forward", makepad pressed,
+makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果
+- [`makepad-basics`](../skills/makepad-basics/) — CRITICAL: Use for Makepad getting started and app structure. Triggers on:
+makepad, makepad getting started, makepad tutorial, live_design!, app_main!,
+makepad project setup, makepad hello world, "how to create makepad app",
+makepad 入门, 创建 makepad 应用, makepad 教程, makepad 项目结构
+- [`makepad-deployment`](../skills/makepad-deployment/) — CRITICAL: Use for Makepad packaging and deployment. Triggers on:
+deploy, package, APK, IPA, 打包, 部署,
+cargo-packager, cargo-makepad, WASM, Android, iOS,
+distribution, installer, .deb, .dmg, .nsis,
+GitHub Actions, CI, action, marketplace
+- [`makepad-dsl`](../skills/makepad-dsl/) — CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on:
+makepad dsl, live_design, makepad inheritance, makepad prototype,
+"<Widget>", "Foo = { }", makepad object, makepad property,
+makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件
+- [`makepad-event-action`](../skills/makepad-event-action/) — CRITICAL: Use for Makepad event and action handling. Triggers on:
+makepad event, makepad action, Event enum, ActionTrait, handle_event,
+MouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action,
+makepad 事件, makepad action, 事件处理
+- [`makepad-font`](../skills/makepad-font/) — CRITICAL: Use for Makepad font and text rendering. Triggers on:
+makepad font, makepad text, makepad glyph, makepad typography,
+font atlas, text layout, font family, font size, text shaping,
+makepad 字体, makepad 文字, makepad 排版, makepad 字形
+- [`makepad-layout`](../skills/makepad-layout/) — CRITICAL: Use for Makepad layout system. Triggers on:
+makepad layout, makepad width, makepad height, makepad flex,
+makepad padding, makepad margin, makepad flow, makepad align,
+Fit, Fill, Size, Walk, "how to center in makepad",
+makepad 布局, makepad 宽度, makepad 对齐, makepad 居中
+- [`makepad-platform`](../skills/makepad-platform/) — CRITICAL: Use for Makepad cross-platform support. Triggers on:
+makepad platform, makepad os, makepad macos, makepad windows, makepad linux,
+makepad android, makepad ios, makepad web, makepad wasm, makepad metal,
+makepad d3d11, makepad opengl, makepad webgl, OsType, CxOs,
+makepad 跨平台, makepad 平台支持
+- [`makepad-reference`](../skills/makepad-reference/) — This category provides reference materials for debugging, code quality, and advanced layout patterns.
+- [`makepad-shaders`](../skills/makepad-shaders/) — CRITICAL: Use for Makepad shader system. Triggers on:
+makepad shader, makepad draw_bg, Sdf2d, makepad pixel,
+makepad glsl, makepad sdf, draw_quad, makepad gpu,
+makepad 着色器, makepad shader 语法, makepad 绘制
+- [`makepad-skills`](../skills/makepad-skills/) — Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.
+- [`makepad-splash`](../skills/makepad-splash/) — CRITICAL: Use for Makepad Splash scripting language. Triggers on:
+splash language, makepad script, makepad scripting, script!, cx.eval,
+makepad dynamic, makepad AI, splash 语言, makepad 脚本
+- [`makepad-widgets`](../skills/makepad-widgets/) — Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets
+- [`markstream-angular`](../skills/markstream-angular/) — Integrate the alpha markstream-angular renderer into Angular 20+ applications with standalone components, signals, safe HTML defaults, and optional peer features.
+- [`markstream-custom-components`](../skills/markstream-custom-components/) — Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings.
+- [`markstream-install`](../skills/markstream-install/) — Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.
+- [`markstream-migration`](../skills/markstream-migration/) — Audit and migrate an existing Markdown renderer to Markstream while preserving custom renderers, security policy, streaming behavior, and explicit parity gaps.
+- [`markstream-nuxt`](../skills/markstream-nuxt/) — Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers.
+- [`markstream-react`](../skills/markstream-react/) — Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides.
+- [`markstream-svelte`](../skills/markstream-svelte/) — Integrate the beta markstream-svelte renderer into Svelte 5 or SvelteKit with runes, explicit CSS, smooth streaming, workers, and SSR-safe boundaries.
+- [`markstream-vue`](../skills/markstream-vue/) — Integrate markstream-vue into plain Vue 3 with renderer modes, code and DOM choices, streaming state, virtualization, optional peers, and scoped components.
+- [`markstream-vue2`](../skills/markstream-vue2/) — Integrate markstream-vue2 into Vue 2.6 or 2.7 with correct Composition API decisions, CSS, streaming state, optional peers, and scoped overrides.
+- [`markstream-vue2-cli`](../skills/markstream-vue2-cli/) — Integrate markstream-vue2 into Vue CLI or Webpack 4 with export-map-safe CSS, CDN worker fallbacks, and conservative code-block defaults.
+- [`markstream-vue2-vite`](../skills/markstream-vue2-vite/) — Integrate markstream-vue2 into Vue 2 plus Vite with bundled worker imports, CSS ordering, Composition API compatibility, and safe streaming defaults.
+- [`marlin-bed-leveling`](../skills/marlin-bed-leveling/) — Calibrates Marlin 2.x 3D printer firmware bed leveling: Unified Bed Leveling (UBL), Bilinear ABL, M420 S1 post-homing, Z-probe offsets, G26 mesh prints, and EEPROM slots. Trigger phrases: marlin bed leveling, ubl calibration, m420 s1, z probe offset, g29 bed level, first layer adhesion.
+- [`mcp-tool-developer`](../skills/mcp-tool-developer/) — Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing.
+- [`memory-safety-patterns`](../skills/memory-safety-patterns/) — Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.
+- [`microservices-patterns`](../skills/microservices-patterns/) — Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.
+- [`minimalist-ui`](../skills/minimalist-ui/) — Use when creating clean editorial interfaces with warm monochrome palettes, crisp borders, restrained motion, and flat bento layouts.
+- [`mock-hunter`](../skills/mock-hunter/) — Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value.
+- [`modern-javascript-patterns`](../skills/modern-javascript-patterns/) — Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.
+- [`monopoly`](../skills/monopoly/) — MONOPOLY is a Senior System Design Engineer skill for architecting, reviewing, and scaling systems. Triggers on requests involving architecture, databases, scaling, microservices, or infrastructure design. Proactively engages to design resilient backend systems.
+- [`monorepo-architect`](../skills/monorepo-architect/) — Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,
+- [`monorepo-management`](../skills/monorepo-management/) — Build efficient, scalable monorepos that enable code sharing, consistent tooling, and atomic changes across multiple packages and applications.
+- [`multi-platform-apps-multi-platform`](../skills/multi-platform-apps-multi-platform/) — Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
+- [`native-data-fetching`](../skills/native-data-fetching/) — Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`).
+- [`neon-functions`](../skills/neon-functions/) — Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data.
+- [`neon-postgres`](../skills/neon-postgres/) — Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK.
+- [`nerdzao-elite`](../skills/nerdzao-elite/) — Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.
+- [`nerdzao-elite-gemini-high`](../skills/nerdzao-elite-gemini-high/) — Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens.
+- [`nestjs-expert`](../skills/nestjs-expert/) — You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.
+- [`network-101`](../skills/network-101/) — Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems.
+- [`new-rails-project`](../skills/new-rails-project/) — Create a new Rails project
+- [`nextjs-app-router-patterns`](../skills/nextjs-app-router-patterns/) — Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.
+- [`nextjs-best-practices`](../skills/nextjs-best-practices/) — Next.js App Router principles. Server Components, data fetching, routing patterns.
+- [`nodejs-backend-patterns`](../skills/nodejs-backend-patterns/) — Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.
+- [`nodejs-best-practices`](../skills/nodejs-best-practices/) — Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.
+- [`nx-workspace-patterns`](../skills/nx-workspace-patterns/) — Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands.
+- [`observability-cloud-planning`](../skills/observability-cloud-planning/) — Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning.
+- [`oneroster-csv-validator`](../skills/oneroster-csv-validator/) — Validates 1EdTech / IMS Global OneRoster v1.1 and v1.2 CSV roster sets: manifest integrity, bulk vs delta strictness, foreign key references, and encoding sanitization. Trigger phrases: oneroster csv validator, validate oneroster zip, clever roster error, oneroster sourcedid.
+- [`ontoly-software-graph`](../skills/ontoly-software-graph/) — Use Ontoly's deterministic Software Graph, MCP server, and agent skills for architecture review, request tracing, impact analysis, and dependency analysis.
+- [`openapi-spec-generator`](../skills/openapi-spec-generator/) — Generate complete, production-ready OpenAPI 3.x and Swagger 2.0 specifications from natural language descriptions, code, or partial specs.
+- [`openclaw-github-repo-commander`](../skills/openclaw-github-repo-commander/) — 7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis
+- [`orca-replay`](../skills/orca-replay/) — Answers questions about a past agent run from its recording rather than from memory, and replays or forks that run. Use when asked why an earlier run did something, or to reproduce a failure.
+- [`orchestrate-batch-refactor`](../skills/orchestrate-batch-refactor/) — Plan and execute large refactors with dependency-aware work packets and parallel analysis.
+- [`pagespeed-enhancer`](../skills/pagespeed-enhancer/) — Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches.
+- [`performance-engineer`](../skills/performance-engineer/) — Expert performance engineer specializing in modern observability,
+- [`performance-optimization`](../skills/performance-optimization/) — Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.
+- [`performance-optimizer`](../skills/performance-optimizer/) — Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.
+- [`performance-profiling`](../skills/performance-profiling/) — Performance profiling principles. Measurement, analysis, and optimization techniques.
+- [`performance-testing-review-ai-review`](../skills/performance-testing-review-ai-review/) — You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, C
+- [`performance-testing-review-multi-agent-review`](../skills/performance-testing-review-multi-agent-review/) — Use when working with performance testing review multi agent review
+- [`personal-tool-builder`](../skills/personal-tool-builder/) — Expert in building custom tools that solve your own problems first. The best products often start as personal tools - scratch your own itch, build for yourself, then discover others have the same itch.
+- [`phase-gated-debugging`](../skills/phase-gated-debugging/) — Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts.
+- [`photopea-embedded-editor`](../skills/photopea-embedded-editor/) — Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.
+- [`php`](../skills/super-code/php/) — Language-specific super-code guidelines for php.
+- [`php-pro`](../skills/php-pro/) — Write idiomatic PHP code with generators, iterators, SPL data
+structures, and modern OOP features. Use PROACTIVELY for high-performance PHP
+applications.
+- [`playwright`](../skills/playwright/) — Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.
+- [`playwright-interactive`](../skills/playwright-interactive/) — Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.
+- [`playwright-java`](../skills/playwright-java/) — Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.
+- [`playwright-skill`](../skills/playwright-skill/) — IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.
+- [`poka-yoke`](../skills/poka-yoke/) — Mistake-proof code, config and process: make the wrong action impossible or self-announcing rather than documented.
+- [`posix-shell-pro`](../skills/posix-shell-pro/) — Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
+- [`postgresql-optimization`](../skills/postgresql-optimization/) — PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.
+- [`postman-newman-automation`](../skills/postman-newman-automation/) — Generate Newman CLI commands, configuration files, Jenkins pipeline scripts, and shell automation for running Postman collections in CI/CD or local environments.
+- [`pre-ship-gate`](../skills/pre-ship-gate/) — A ship gate that runs before any production deploy: checks the silent failure modes that make a deploy 'succeed' while prod stays broken, then verifies the live revision instead of trusting deploy output.
+- [`premium-3d-website`](../skills/premium-3d-website/) — Guidelines for building premium 3D websites, focusing on custom WebGL shaders, post-processing, physics-based interactions, smooth animations, preloaders, and device optimization.
+- [`production-code-audit`](../skills/production-code-audit/) — Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations
+- [`progressive-web-app`](../skills/progressive-web-app/) — Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their web app to work offline, feel native, or be installable.
+- [`projection-patterns`](../skills/projection-patterns/) — Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems.
+- [`prototype`](../skills/prototype/) — Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
+- [`pubmed-database`](../skills/pubmed-database/) — Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.
+- [`push-skill-to-github`](../skills/push-skill-to-github/) — Commit and push skill changes to the configured skills repository after review and validation.
+- [`pydantic-models-py`](../skills/pydantic-models-py/) — Create Pydantic models following the multi-model pattern for clean API contracts.
+- [`pypict-skill`](../skills/pypict-skill/) — Pairwise test generation
+- [`pytest-skill`](../skills/pytest-skill/) — Generates production-grade pytest tests in Python with fixtures, parametrize, markers, mocking, and conftest patterns. Use when user mentions "pytest", "conftest", "@pytest.fixture", "@pytest.mark", "Python test".
+- [`python`](../skills/super-code/python/) — Language-specific super-code guidelines for python.
+- [`python-development`](../skills/python-development/) — You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)
+- [`python-development-python-scaffold`](../skills/python-development-python-scaffold/) — You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint
+- [`python-fastapi-development`](../skills/python-fastapi-development/) — Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns.
+- [`python-packaging`](../skills/python-packaging/) — Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.
+- [`python-patterns`](../skills/python-patterns/) — Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
+- [`python-performance-optimization`](../skills/python-performance-optimization/) — Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.
+- [`python-pptx-generator`](../skills/python-pptx-generator/) — Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.
+- [`python-pro`](../skills/python-pro/) — Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
+- [`python-testing-patterns`](../skills/python-testing-patterns/) — Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.
+- [`radix-ui-design-system`](../skills/radix-ui-design-system/) — Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.
+- [`rag-implementation`](../skills/rag-implementation/) — RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization.
+- [`rayden-code`](../skills/rayden-code/) — Generate React code with Rayden UI components using correct props, tokens, and premium layout patterns
+- [`re-create`](../skills/re-create/) — Completely delete and rewrite a file or module from scratch when structural rot makes patching impossible.
+- [`react-best-practices`](../skills/react-best-practices/) — Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.
+- [`react-component-performance`](../skills/react-component-performance/) — Diagnose slow React components and suggest targeted performance fixes.
+- [`react-flow-architect`](../skills/react-flow-architect/) — Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management.
+- [`react-flow-node-ts`](../skills/react-flow-node-ts/) — Create React Flow node components following established patterns with proper TypeScript types and store integration.
+- [`react-modernization`](../skills/react-modernization/) — Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.
+- [`react-native-architecture`](../skills/react-native-architecture/) — Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture.
+- [`react-native-skills`](../skills/react-native-skills/) — Use when working with react-native-skills tasks or workflows
+- [`react-nextjs-development`](../skills/react-nextjs-development/) — React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns.
+- [`react-patterns`](../skills/react-patterns/) — Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.
+- [`react-state-management`](../skills/react-state-management/) — Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.
+- [`react-ui-patterns`](../skills/react-ui-patterns/) — Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- [`redesign-existing-projects`](../skills/redesign-existing-projects/) — Use when upgrading existing websites or apps by auditing generic UI patterns and applying premium design fixes without rewrites.
+- [`repo-foundation`](../skills/repo-foundation/) — Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.
+- [`repo-native-refactor`](../skills/repo-native-refactor/) — Review diffs without editing, or perform evidence-based cleanup while preserving authorized behavior, public contracts, and domain ownership.
+- [`resolving-merge-conflicts`](../skills/resolving-merge-conflicts/) — Use when you need to resolve an in-progress git merge/rebase conflict.
+- [`review-and-simplify-changes`](../skills/review-and-simplify-changes/) — Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes.
+- [`review-animations`](../skills/review-animations/) — Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar.
+- [`review-swarm`](../skills/review-swarm/) — Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps.
+- [`robius-app-architecture`](../skills/robius-app-architecture/) — CRITICAL: Use for Robius app architecture patterns. Triggers on:
+Tokio, async, submit_async_request, 异步, 架构,
+SignalToUI, Cx::post_action, worker task,
+app structure, MatchEvent, handle_startup
+- [`robius-event-action`](../skills/robius-event-action/) — CRITICAL: Use for Robius event and action patterns. Triggers on:
+custom action, MatchEvent, post_action, cx.widget_action,
+handle_actions, DefaultNone, widget action, event handling,
+事件处理, 自定义动作
+- [`robius-matrix-integration`](../skills/robius-matrix-integration/) — CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:
+Matrix SDK, sliding sync, MatrixRequest, timeline,
+matrix-sdk, matrix client, robrix, matrix room,
+Matrix 集成, 聊天客户端
+- [`robius-state-management`](../skills/robius-state-management/) — CRITICAL: Use for Robius state management patterns. Triggers on:
+AppState, persistence, theme switch, 状态管理,
+Scope::with_data, save state, load state, serde,
+状态持久化, 主题切换
+- [`robius-widget-patterns`](../skills/robius-widget-patterns/) — CRITICAL: Use for Robius widget patterns. Triggers on:
+apply_over, TextOrImage, modal, 可复用, 模态,
+collapsible, drag drop, reusable widget, widget design,
+pageflip, 组件设计, 组件模式
+- [`robot-framework-skill`](../skills/robot-framework-skill/) — Generates Robot Framework tests in keyword-driven syntax with Python. Supports SeleniumLibrary, RequestsLibrary, and custom keywords. Use when user mentions "Robot Framework", "*** Test Cases ***", "SeleniumLibrary", ".robot file".
+- [`ruby`](../skills/super-code/ruby/) — Language-specific super-code guidelines for ruby.
+- [`ruby-pro`](../skills/ruby-pro/) — Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.
+- [`runapi-cli`](../skills/runapi-cli/) — Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
+- [`rust`](../skills/super-code/rust/) — Language-specific super-code guidelines for rust.
+- [`rust-async-patterns`](../skills/rust-async-patterns/) — Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.
+- [`rust-pro`](../skills/rust-pro/) — Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
+- [`saga-orchestration`](../skills/saga-orchestration/) — Patterns for managing distributed transactions and long-running business processes.
+- [`sankhya-dashboard-html-jsp-custom-best-pratices`](../skills/sankhya-dashboard-html-jsp-custom-best-pratices/) — This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.
+- [`scala`](../skills/super-code/scala/) — Language-specific super-code guidelines for scala.
+- [`scala-pro`](../skills/scala-pro/) — Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.
+- [`score-eval`](../skills/score-eval/) — Imported skill `score-eval` from upstream source.
+- [`screen-reader-testing`](../skills/screen-reader-testing/) — Practical guide to testing web applications with screen readers for comprehensive accessibility validation.
+- [`scroll-experience`](../skills/scroll-experience/) — Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences.
+- [`selenium-skill`](../skills/selenium-skill/) — Generates production-grade Selenium WebDriver automation scripts and tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and TestMu AI cloud with 3000+ browser/OS combinations.
+- [`senior-architect`](../skills/senior-architect/) — Complete toolkit for senior architect with modern tools and best practices.
+- [`senior-frontend`](../skills/senior-frontend/) — Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.
+- [`senior-fullstack`](../skills/senior-fullstack/) — Complete toolkit for senior fullstack with modern tools and best practices.
+- [`seo-technical`](../skills/seo-technical/) — Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.
+- [`setup-matt-pocock-skills`](../skills/setup-matt-pocock-skills/) — Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
+- [`shadcn`](../skills/shadcn/) — Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems.
+- [`sharp-coder`](../skills/sharp-coder/) — Two-layer performance skill combining disciplined THINK layer (surgical edits, simplicity) and terse SPEAK layer (caveman compression). Triggers on requests for brevity, token efficiency, or disciplined coding.
+- [`shellcheck-configuration`](../skills/shellcheck-configuration/) — Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.
+- [`simplify-code`](../skills/simplify-code/) — Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes.
+- [`since-cutoff`](../skills/since-cutoff/) — Find which APIs of a project's pinned Python dependencies changed after the model's training cutoff, where the code uses them, and write short AGENTS.md or CLAUDE.md notes.
+- [`site-architecture`](../skills/site-architecture/) — Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup.
+- [`skill-check`](../skills/skill-check/) — Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do.
+- [`skill-porter`](../skills/skill-porter/) — Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity.
+- [`smart-contract-formal-verification`](../skills/smart-contract-formal-verification/) — Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.
+- [`smart-contract-upgrade-governance`](../skills/smart-contract-upgrade-governance/) — Soroban WASM upgrade governance register: executable bytecode hash, timelocked migration delays, and multi-sig authorization quorum.
+- [`smartui-skill`](../skills/smartui-skill/) — Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions "SmartUI", "visual regression", "screenshot comparison", "visual testing".
+- [`software-architecture`](../skills/software-architecture/) — Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.
+- [`soroban-contract-audit`](../skills/soroban-contract-audit/) — Soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.
+- [`soroban-liquidity-pool`](../skills/soroban-liquidity-pool/) — Automated market maker liquidity pool register: constant-product invariant curves, swap fee tiers, and LP token shares for Soroban DeFi.
+- [`soroban-oracle-data-feed-audit`](../skills/soroban-oracle-data-feed-audit/) — DeFi price oracle integration and safety audit register: heartbeat bounds, stale price threshold reversion, and TWAP medianizer validation.
+- [`soroban-storage-ttl-lifecycle`](../skills/soroban-storage-ttl-lifecycle/) — Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.
+- [`soroban-token-minter`](../skills/soroban-token-minter/) — Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.
+- [`source-driven-development`](../skills/source-driven-development/) — Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.
+- [`spec-driven-loop`](../skills/spec-driven-loop/) — Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
+- [`spec-to-code-compliance`](../skills/spec-to-code-compliance/) — Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
+- [`speckit-updater`](../skills/speckit-updater/) — SpecKit Safe Update
+- [`spline-3d-integration`](../skills/spline-3d-integration/) — Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API.
+- [`squirrel`](../skills/squirrel/) — Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.
+- [`stellar-anchor-integration`](../skills/stellar-anchor-integration/) — Stellar anchor protocol compliance register: SEP-10 web authentication, SEP-24 interactive deposit and withdrawal, and KYC lifecycle.
+- [`stellar-asset-clawback-compliance`](../skills/stellar-asset-clawback-compliance/) — Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.
+- [`stellar-escrow-timelock`](../skills/stellar-escrow-timelock/) — Decentralized conditional escrow and timelock contract register: multi-signature release conditions, clawback expiry, and settlement triggers.
+- [`stellar-multisig-threshold-coordinator`](../skills/stellar-multisig-threshold-coordinator/) — Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar.
+- [`stitch-design-taste`](../skills/stitch-design-taste/) — Use when generating Google Stitch DESIGN.md systems for premium typography, color, layout, motion intent, and anti-generic UI rules.
+- [`styleseed-design-review`](../skills/styleseed-design-review/) — Reviews UI/frontend code and tells you exactly why it "looks AI-generated" — then how to fix it.
+- [`supabase`](../skills/supabase/) — Use when doing ANY task involving Supabase.
+- [`super-code`](../skills/super-code/) — Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.
+- [`supercov`](../skills/supercov/) — Measure line, branch and MC/DC coverage of a project's existing tests with the supercov CLI, then write small, focused tests for the code no test reaches.
+- [`sveltekit`](../skills/sveltekit/) — Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.
+- [`swift`](../skills/super-code/swift/) — Language-specific super-code guidelines for swift.
+- [`swift-concurrency-expert`](../skills/swift-concurrency-expert/) — Review and fix Swift concurrency issues such as actor isolation and Sendable violations.
+- [`systematic-debugging`](../skills/systematic-debugging/) — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+- [`systems-programming-rust-project`](../skills/systems-programming-rust-project/) — You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications. Generate complete project structures with cargo tooling, proper module organization, testing
+- [`tailwind-design-system`](../skills/tailwind-design-system/) — Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.
+- [`tailwind-patterns`](../skills/tailwind-patterns/) — Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+- [`tanstack-query-expert`](../skills/tanstack-query-expert/) — Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration.
+- [`tdd`](../skills/tdd/) — Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
+- [`tdd-orchestrator`](../skills/tdd-orchestrator/) — Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.
+- [`tdd-workflow`](../skills/tdd-workflow/) — Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.
+- [`tdd-workflows`](../skills/tdd-workflows/) — Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle)
+- [`tdd-workflows-tdd-cycle`](../skills/tdd-workflows-tdd-cycle/) — Use when working with tdd workflows tdd cycle
+- [`tdd-workflows-tdd-green`](../skills/tdd-workflows-tdd-green/) — Implement the minimal code needed to make failing tests pass in the TDD green phase.
+- [`tdd-workflows-tdd-red`](../skills/tdd-workflows-tdd-red/) — Generate failing tests for the TDD red phase to define expected behavior and edge cases.
+- [`tdd-workflows-tdd-refactor`](../skills/tdd-workflows-tdd-refactor/) — Use when working with tdd workflows tdd refactor
+- [`technical-change-tracker`](../skills/technical-change-tracker/) — Track code changes with structured JSON records, state machine enforcement, and AI session handoff for bot continuity
+- [`telegram`](../skills/telegram/) — Integracao completa com Telegram Bot API. Setup com BotFather, mensagens, webhooks, inline keyboards, grupos, canais. Boilerplates Node.js e Python.
+- [`telegram-mini-app`](../skills/telegram-mini-app/) — Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with native-like experience. Covers the TON ecosystem, Telegram Web App API, payments, user authentication, and building viral mini apps that monetize.
+- [`temporal-python-testing`](../skills/temporal-python-testing/) — Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.
+- [`terraform-infrastructure`](../skills/terraform-infrastructure/) — Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.
+- [`test-automator`](../skills/test-automator/) — Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.
+- [`test-driven-development`](../skills/test-driven-development/) — Use a failing behavioral test to guide a feature or bug fix, then implement and refactor with relevant regression checks.
+- [`test-fixing`](../skills/test-fixing/) — Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests ("fix these tests", "make tests pass"), reports test failures ("tests are failing", "test suite is broken"), or completes implementation and wants tests passing.
+- [`test-framework-migration-skill`](../skills/test-framework-migration-skill/) — Migrates and converts test automation scripts between Selenium, Playwright, Puppeteer, and Cypress.
+- [`test-guard`](../skills/test-guard/) — Review generated or changed test code against universal testing rules before it ships or is presented for approval.
+- [`testdriver-e2e-testing`](../skills/testdriver-e2e-testing/) — Build E2E tests with TestDriver.ai, the AI code reviewer that runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests
+- [`testing-patterns`](../skills/testing-patterns/) — Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
+- [`testng-skill`](../skills/testng-skill/) — Generates TestNG tests in Java with groups, data providers, parallel execution, XML suite configuration, and listeners. Use when user mentions "TestNG", "@DataProvider", "testng.xml", "groups". Triggers on: "TestNG", "@DataProvider", "testng.xml", "TestNG suite", "parallel tests Java".
+- [`threejs-animation`](../skills/threejs-animation/) — Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
+- [`threejs-fundamentals`](../skills/threejs-fundamentals/) — Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.
+- [`threejs-geometry`](../skills/threejs-geometry/) — Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.
+- [`threejs-interaction`](../skills/threejs-interaction/) — Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.
+- [`threejs-lighting`](../skills/threejs-lighting/) — Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
+- [`threejs-loaders`](../skills/threejs-loaders/) — Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.
+- [`threejs-materials`](../skills/threejs-materials/) — Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.
+- [`threejs-postprocessing`](../skills/threejs-postprocessing/) — Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.
+- [`threejs-shaders`](../skills/threejs-shaders/) — Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.
+- [`threejs-skills`](../skills/threejs-skills/) — Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements.
+- [`threejs-textures`](../skills/threejs-textures/) — Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.
+- [`tmux`](../skills/tmux/) — Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation.
+- [`tokenwise`](../skills/tokenwise/) — Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.
+- [`transformers-js`](../skills/transformers-js/) — Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript.
+- [`tree-ring-memory`](../skills/tree-ring-memory/) — Use Tree Ring Memory for local-first AI-agent memory lifecycle work: recall, evidence, audit, forgetting, and consolidation without transcript dumping.
+- [`triage`](../skills/triage/) — Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.
+- [`trpc-fullstack`](../skills/trpc-fullstack/) — Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integration patterns.
+- [`turborepo-caching`](../skills/turborepo-caching/) — Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching.
+- [`typescript`](../skills/super-code/typescript/) — Language-specific super-code guidelines for typescript.
+- [`typescript-advanced-types`](../skills/typescript-advanced-types/) — Comprehensive guidance for mastering TypeScript's advanced type system including generics, conditional types, mapped types, template literal types, and utility types for building robust, type-safe applications.
+- [`typescript-expert`](../skills/typescript-expert/) — TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.
+- [`typescript-pro`](../skills/typescript-pro/) — Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.
+- [`ui-a11y`](../skills/ui-a11y/) — Audit a component or page for accessibility issues and fix them
+- [`ui-component`](../skills/ui-component/) — Generate a new UI component following the StyleSeed design conventions
+- [`ui-lint`](../skills/ui-lint/) — Quick automated lint — detects common design system violations in seconds
+- [`ui-motion`](../skills/ui-motion/) — Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …).
+- [`ui-review`](../skills/ui-review/) — Review UI code for design system compliance, accessibility, and best practices
+- [`ui-update`](../skills/ui-update/) — Update StyleSeed engine in your project — analyzes what's outdated and updates safely
+- [`ui-ux-designer`](../skills/ui-ux-designer/) — Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.
+- [`ui-ux-pro-max`](../skills/ui-ux-pro-max/) — Comprehensive design guide for web and mobile applications. Use when designing new UI components or pages, choosing color palettes and typography, or reviewing code for UX issues.
+- [`uncle-bob-craft`](../skills/uncle-bob-craft/) — Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.
+- [`uniprot-database`](../skills/uniprot-database/) — Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.
+- [`unit-testing-test-generate`](../skills/unit-testing-test-generate/) — Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.
+- [`unreal-engine-cpp-pro`](../skills/unreal-engine-cpp-pro/) — Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.
+- [`unship`](../skills/unship/) — Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code.
+- [`unslop-review`](../skills/unslop-review/) — Rewrites code review comments so they read like a human teammate wrote them. Cuts corporate-AI throat-clearing ("I noticed...", "I was wondering if perhaps...", "It might be worth considering..."). Each comment is direct: location, the issue, a concrete fix.
+- [`upstash-ratelimit`](../skills/upstash-ratelimit/) — Add rate limiting to API routes, middleware, and edge functions with @upstash/ratelimit: sliding window, fixed window, and token bucket backed by Upstash Redis.
+- [`upstash-redis`](../skills/upstash-redis/) — Use the @upstash/redis HTTP client for caching, sessions, counters, and Redis data structures from serverless and edge runtimes without connection pooling.
+- [`use-dom`](../skills/use-dom/) — Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally.
+- [`using-git-worktrees`](../skills/using-git-worktrees/) — Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.
+- [`using-lwc`](../skills/using-lwc/) — Use when project decisions, code structure, research, incidents, or verified context must survive future coding-agent sessions through LWC memory and graph indexes.
+- [`uv-package-manager`](../skills/uv-package-manager/) — Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.
+- [`ux-feedback`](../skills/ux-feedback/) — Add appropriate user feedback states (loading, success, error, empty) to a component or page
+- [`vercel-ai-sdk-expert`](../skills/vercel-ai-sdk-expert/) — Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js.
+- [`vercel-react-view-transitions`](../skills/vercel-react-view-transitions/) — Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation.
+- [`vexor`](../skills/vexor/) — Vector-powered CLI for semantic file search with a Claude/Codex skill
+- [`vexor-cli`](../skills/vexor-cli/) — Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.
+- [`vibe-code-auditor`](../skills/vibe-code-auditor/) — Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
+- [`vibe-code-cleanup`](../skills/vibe-code-cleanup/) — Safe production cleanup and hardening for vibe-coded fullstack apps (Next.js, React, Node.js, etc.). Removes dead imports, unused files, and broken references without breaking routes or APIs.
+- [`vibers-code-review`](../skills/vibers-code-review/) — Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service.
+- [`vitest-skill`](../skills/vitest-skill/) — Generates Vitest tests in JavaScript/TypeScript with Vite-native speed. Jest-compatible API with ESM support and HMR. Use when user mentions "Vitest", "vi.mock", "vitest.config". Triggers on: "Vitest", "vi.mock", "vi.fn", "Vite test", "vitest config".
+- [`vscode-extension-guide-en`](../skills/vscode-extension-guide-en/) — Guide for VS Code extension development from scaffolding to Marketplace publication
+- [`web-artifacts-builder`](../skills/web-artifacts-builder/) — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+- [`web-performance-optimization`](../skills/web-performance-optimization/) — Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance
+- [`web-security-testing`](../skills/web-security-testing/) — Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.
+- [`web3-rate-limiting-circuit-breaker`](../skills/web3-rate-limiting-circuit-breaker/) — On-chain and relayer rate-limiting circuit breaker register: throughput thresholds, emergency pause triggers, and multi-sig recovery.
+- [`web3-transaction-relayer-pool`](../skills/web3-transaction-relayer-pool/) — Gasless transaction relayer node pool register: fee sponsorship limits, nonce synchronization, and balance replenishment alerts.
+- [`webapp-testing`](../skills/webapp-testing/) — Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+- [`webdriverio-skill`](../skills/webdriverio-skill/) — Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript. Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO", "WDIO", "wdio.conf", "browser.url", "$", "$$". Triggers on: "WebdriverIO", "WDIO", "wdio", "browser.$".
+- [`whatsapp-cloud-api`](../skills/whatsapp-cloud-api/) — Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python.
+- [`winui-app`](../skills/winui-app/) — Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refactoring, planning, troubleshooting, environment-checking, or setting up WinUI 3 XAML, controls, navigation, windowing, theming, accessibility, responsiveness, performance, deployment, or related Windows app design and development work.
+- [`wjttc-builder`](../skills/wjttc-builder/) — PLAN and GENERATE WJTTC (Championship-Grade) test suites for any project. Analyzes the codebase, classifies components across the WJTTC five tiers (Brake · Engine · Aero · Tyre · Pit), writes a tiered test plan, and scaffolds executable test files.
+- [`wjttc-tester`](../skills/wjttc-tester/) — F1-inspired test EXECUTOR + reporter. Runs a test plan, finds and reproduces bugs, audits suite signal integrity, then files a WJTTC report (Brake/Engine/Aero/Tyre/Pit) with a tier verdict.
+- [`wordpress-plugin-development`](../skills/wordpress-plugin-development/) — WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best practices, and WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks.
+- [`wordpress-theme-development`](../skills/wordpress-theme-development/) — WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPress 7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh.
+- [`wordpress-woocommerce-development`](../skills/wordpress-woocommerce-development/) — WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customization, and WordPress 7.0 features: AI connectors, DataViews, and collaboration tools.
+- [`wp-guard`](../skills/wp-guard/) — Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, and API correctness.
+- [`wp-site-health-auditor`](../skills/wp-site-health-auditor/) — Turns a WordPress Site Health report into a risk-tiered, backup-first fix plan with exact WP-CLI/PHP snippets. Use for site health, recommended improvements, or critical issue reports.
+- [`x402-express-wrapper`](../skills/x402-express-wrapper/) — Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetización máquina a máquina.
+- [`yeet`](../skills/yeet/) — Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).
+- [`zk-proof-verification-pipeline`](../skills/zk-proof-verification-pipeline/) — Zero-knowledge cryptographic verification pipeline register: proving system, circuit verification keys, public inputs, and gas costs.
+- [`zod-validation-expert`](../skills/zod-validation-expert/) — Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js, and tRPC.
+- [`zustand-store-ts`](../skills/zustand-store-ts/) — Create Zustand stores following established patterns with proper TypeScript types and middleware.
